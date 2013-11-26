@@ -4,7 +4,7 @@
     <pluginInfo plugin-name="Third Party Jars Plug-in" version-no="5.5.0.Beta3_v201310310019"/>
     <pluginInfo plugin-name="Soap UI Plugin" plugin-id="com.pat.soapui.SoapUIPlugin" version-no="5.5.0.Beta3_v201310310026"/>
     <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.27.QA_v201311152222"/>
-    <pluginInfo plugin-name="KonyHelp Plug-in" plugin-id="com.kony.help.Activator" version-no="5.5.10.QA_v201311191922"/>
+    <pluginInfo plugin-name="KonyHelp Plug-in" plugin-id="com.kony.help.Activator" version-no="5.5.11.QA_v201311211922"/>
     <pluginInfo plugin-name="Nativecodegen" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" version-no="5.5.0.Beta3_v201310310036"/>
     <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.0.Beta3_v201310310048"/>
     <pluginInfo plugin-name="CloudMiddlewarePlugin" plugin-id="com.kony.cloudmiddleware.Activator" version-no="5.5.13.QA_v201310281034"/>
@@ -15,13 +15,13 @@
     <pluginInfo plugin-name="Blackberry 10" plugin-id="com.kony.bb10.BB10Plugin" version-no="5.5.0.GA"/>
     <pluginInfo plugin-name="Winmobile Plug-in" plugin-id="com.pat.winmobile.WinMobilePlugin" version-no="5.5.8.QA_v201311181551"/>
     <pluginInfo plugin-name="Windows Phone 8 Plug-in" plugin-id="com.kony.windows.WindowsPhone8Plugin" version-no="5.5.9.QA_v201311181152"/>
-    <pluginInfo plugin-name="Windows 8 Plug-in" plugin-id="com.kony.windows.Windows8Plugin" version-no="5.5.9.QA_v201311181242"/>
+    <pluginInfo plugin-name="Windows 8 Plug-in" plugin-id="com.kony.windows.Windows8Plugin" version-no="5.5.12.QA_v201311251320"/>
     <pluginInfo plugin-name="Android" plugin-id="com.pat.android.Activator" version-no="5.5.26.QA_v201311152220"/>
     <pluginInfo plugin-name="ThinClient" plugin-id="thinclientplugin.Activator" version-no="5.5.13.QA_v201311181520"/>
-    <pluginInfo plugin-name="Windows Desktop Plug-in" plugin-id="com.kony.windows.WinDesktopPlugin" version-no="5.5.8.QA_v201311181206"/>
+    <pluginInfo plugin-name="Windows Desktop Plug-in" plugin-id="com.kony.windows.WinDesktopPlugin" version-no="5.5.11.QA_v201311251529"/>
     <pluginInfo plugin-name="SPA" version-no="5.5.15.QA_v201311152117"/>
     <pluginInfo plugin-name="Desktop Web" version-no="5.5.15.QA_v201311181418"/>
     <pluginInfo plugin-name="Kony Sync" plugin-id="com.kony.sync.ide.SyncPlugin" version-no="5.5.50.QA_v201311191925"/>
     <pluginInfo plugin-name="Kony Web Commons" plugin-id="com.kony.web.Activator" version-no="5.5.5.QA_v201310291642"/>
-    <pluginInfo plugin-name="iOS Plugin" plugin-id="iosplugin.Activator" version-no="5.5.17.QA_v201311182138"/>
+    <pluginInfo plugin-name="iOS Plugin" plugin-id="iosplugin.Activator" version-no="5.5.19.QA_v201311261428"/>
 </plugins>
