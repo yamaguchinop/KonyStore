@@ -101,7 +101,7 @@ function catListCallback(status, gcList)
   						    resulttable=gcList["category"];
 					//#else
 						frmHome.segcatList.setData(tmp);
-						frmHome.show();
+						//frmHome.show();
 						kony.application.dismissLoadingScreen();   
 					//#endif
 										             
