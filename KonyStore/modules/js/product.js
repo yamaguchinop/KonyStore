@@ -10,7 +10,7 @@ function getSrchProduct()
 	
 	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
 	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:gApiKey };
-	frmProduct.hboxCat.setVisibility(false);
+	//frmProduct.hboxCat.setVisibility(false);
 	frmProduct.hbxSrch.setVisibility(true); 
 	frmProduct.lblSrch.text="Results for '"+srchKey+"'";
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
@@ -34,11 +34,18 @@ function prodListCallback(status, gcList)
 			var tmp =[],img,price,salePrice,flag;
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
 				for(var i=0;i<gcList["productsCollection"].length;i++ ){
-					//#ifdef windows8
-						img = gcList["productsCollection"][i]["imgProductImage"];
-					//#else
-						img = gcList["productsCollection"][i]["imgProductMediumImage"];
-					//#endif
+					if(gcList["productsCollection"][i]["imgProductImage"] =="" ||gcList["productsCollection"][i]["imgProductImage"] ==null ||gcList["productsCollection"][i]["imgProductImage"] ==undefined)
+					{
+						img = "noimage.png"
+					}
+					else
+					{
+						//#ifdef windows8
+							img = gcList["productsCollection"][i]["imgProductImage"];
+						//#else
+							img = gcList["productsCollection"][i]["imgProductMediumImage"];
+						//#endif
+					}
 					flag=gcList["productsCollection"][i]["lblOnSale"];
 					if(flag=="true")
 					{
@@ -66,13 +73,13 @@ function prodListCallback(status, gcList)
 	          }
 	         else
 	         {
-		         frmProduct.lblInfo.text = "No details found for product '"+scatName+"'";
+		         frmProduct.lblInfo.text = "No details found for product category '"+scatName+"'";
 		         frmProduct.lblInfo.setVisibility(true);
 		         frmProduct.segProdList.setData([]); 
 		         frmProduct.segProdList.setVisibility(false);
 		         frmProduct.hbxBord.setVisibility(true);
 	         }
-	         	frmProduct.lblcate.text = "Category: "+scatName
+	         		//frmProduct.lblcate.text = "Category: "+scatName
 	         	frmProduct.title = scatName;
 	         	frmProduct.show(); 
 	         	kony.application.dismissLoadingScreen(); 

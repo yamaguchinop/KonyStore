@@ -59,7 +59,7 @@
             <width>100</width>
             <height>100</height>
         </sizePercent>
-        <skinId>frm</skinId>
+        <skinId>Skin Defaults</skinId>
         <focusSkinId>Skin Defaults</focusSkinId>
         <localeId>None</localeId>
         <visible>true</visible>
@@ -426,32 +426,8 @@
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
         <headerId>hdrLogo</headerId>
-        <footerId>ftrLogo</footerId>
-        <title>Kony</title>
-        <preShow_root>
-            <evtSequence>
-                <actionList xsi:type="eventFunctionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>6</type>
-                    <functionName>None</functionName>
-                    <functionNameMap>
-                        <entry>
-                            <key>js</key>
-                            <value>preShowHome</value>
-                        </entry>
-                    </functionNameMap>
-                    <paramDataMap>
-                        <entry>
-                            <key>js</key>
-                            <value/>
-                        </entry>
-                    </paramDataMap>
-                </actionList>
-                <enabled>true</enabled>
-                <seqname></seqname>
-            </evtSequence>
-        </preShow_root>
+        <footerId>None</footerId>
+        <title>Kony Store</title>
         <init>
             <evtSequence>
                 <actionList xsi:type="eventFunctionAction">
@@ -2950,7 +2926,7 @@ scatName = frmHome.segcatList.selectedItems[0].categoryName;
                     <width>100</width>
                     <height>13</height>
                 </sizePercent>
-                <skinId>lblNormal</skinId>
+                <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>

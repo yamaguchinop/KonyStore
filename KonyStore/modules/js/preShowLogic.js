@@ -1,19 +1,3 @@
-/**
-****************************************************************
-*	Name    : preShowHome
-*	Author  : Kony Solutions
-*	Purpose : This function is preshow for Home to handle the form pre show logic.
-****************************************************************
-*/
-function preShowHome(){
-	
-	//#ifdef iphone
-		hbxHeaderBack.setVisibility(false);
-		hbxImg.setVisibility(true);
-	//#endif
-	hbxSearch.setVisibility(true);
-	hbxSearch.txtbxSrch.text="";
-}
 
 /**
 ****************************************************************
@@ -24,10 +8,6 @@ function preShowHome(){
 */
 function preShowProduct(){
 	
-	//#ifdef iphone
-		hbxHeaderBack.setVisibility(true);
-		hbxImg.setVisibility(false);
-	//#endif
 	hbxSearch.setVisibility(false);
 }
 
@@ -40,10 +20,7 @@ function preShowProduct(){
 */
 function preShowSubCat(){
 	
-	//#ifdef iphone
-		hbxHeaderBack.setVisibility(true);
-		hbxImg.setVisibility(false);
-	//#endif
+	
 	hbxSearch.setVisibility(true);
 	hbxSearch.txtbxSrch.text="";
 }
@@ -58,7 +35,6 @@ function preShowSubCat(){
 function preShowProdDetails(){
 	
 	//#ifdef iphone
-		hbxHeaderBack.setVisibility(true);
 		hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
 	//#endif
 	if(frmProdDetails.lblReview.text=="")

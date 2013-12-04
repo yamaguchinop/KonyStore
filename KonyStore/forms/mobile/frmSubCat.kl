@@ -59,7 +59,7 @@
             <width>100</width>
             <height>100</height>
         </sizePercent>
-        <skinId>frm</skinId>
+        <skinId>Skin Defaults</skinId>
         <focusSkinId>Skin Defaults</focusSkinId>
         <localeId>None</localeId>
         <visible>true</visible>
@@ -4224,7 +4224,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <width>100</width>
                     <height>13</height>
                 </sizePercent>
-                <skinId>lblNormal</skinId>
+                <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>

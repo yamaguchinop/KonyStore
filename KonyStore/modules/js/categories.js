@@ -64,13 +64,17 @@ function getCatList()
 */
 function catListCallback(status, gcList)
 {	
-	if (status == 400){
+	if (status == 400)
+	{
 		
-		if (gcList["opstatus"] == 0) {
+		if (gcList["opstatus"] == 0) 
+		{
 			var tmp =[];
 			var childData=[];
-			if (gcList["category"] != null || gcList["category"] != undefined ){
-				for(var i=0;i<gcList["category"].length;i++){
+			if (gcList["category"] != null || gcList["category"] != undefined )
+			{
+				for(var i=0;i<gcList["category"].length;i++)
+				{
 				//#ifdef desktopweb
 					childData.push({
 				            template: hbxDetails,
@@ -87,33 +91,32 @@ function catListCallback(status, gcList)
 							});
 				//#endif
 									
-					}	
-					//#ifdef desktopweb
-						  var menudata = {
-								        template: hbxProduct,
-								        "lblProduct": {
-								            "text": "Products",
-								            "skin": "lblMenu"
-								        },
-								        children: childData
-  									  };
-  						    frmHome.menucontainer.setDataAt(menudata,0);
-  						    resulttable=gcList["category"];
-					//#else
-						frmHome.segcatList.setData(tmp);
-						//frmHome.show();
-						kony.application.dismissLoadingScreen();   
-					//#endif
-										             
+				}	
+				//#ifdef desktopweb
+					 var menudata = {
+							        template: hbxProduct,
+							        "lblProduct": {
+							            "text": "Products",
+							            "skin": "lblMenu"
+							        },
+							        children: childData
+								  };
+					    frmHome.menucontainer.setDataAt(menudata,0);
+					    resulttable=gcList["category"];
+				//#else
+					 frmHome.segcatList.setData(tmp);
+					 kony.application.dismissLoadingScreen();   
+				//#endif
 	          }
 	     }
-	     else{
+	     else
+	     {
             	alert("Please check network connection and try again.");    	
    				kony.application.dismissLoadingScreen(); 
    				return;	                 
 	     }
 	                	
-	 }
+	}
 	 								            					
 }
 
@@ -189,7 +192,7 @@ function subCatListCallback(status, gcList)
 	          else
 	          {
 	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
-	           	frmProduct.hboxCat.setVisibility(true);
+	         //  	frmProduct.hboxCat.setVisibility(true);
 	          	//#ifdef windows8
 	          		
 	          	//#else
@@ -246,7 +249,7 @@ function subCatListCallbackIpad(status, gcList)
 	          else
 	          {
 	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
-	           	frmProduct.hboxCat.setVisibility(true);
+	      //     	frmProduct.hboxCat.setVisibility(true);
 	          	//#ifdef windows8
 	          		
 	          	//#else

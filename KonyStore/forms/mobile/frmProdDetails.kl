@@ -59,7 +59,7 @@
             <width>100</width>
             <height>100</height>
         </sizePercent>
-        <skinId>frm</skinId>
+        <skinId>Skin Defaults</skinId>
         <focusSkinId>Skin Defaults</focusSkinId>
         <localeId>None</localeId>
         <visible>true</visible>
@@ -3441,7 +3441,7 @@
                         <width>100</width>
                         <height>17</height>
                     </sizePercent>
-                    <skinId>lblNormal</skinId>
+                    <skinId>sknLblKonyThemeBigSize</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -3515,8 +3515,8 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
-                            <right>0</right>
+                            <left>3</left>
+                            <right>3</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3552,7 +3552,7 @@
                             <bottom>1</bottom>
                             <unit>px</unit>
                         </iphonerc>
-                        <iphonerc_override>true</iphonerc_override>
+                        <iphonerc_override>false</iphonerc_override>
                         <j2me>
                             <left>0</left>
                             <right>0</right>
@@ -3649,7 +3649,7 @@
                             <unit>px</unit>
                         </winmobile6x>
                         <winmobile6x_override>true</winmobile6x_override>
-                        <winmobile_override>true</winmobile_override>
+                        <winmobile_override>false</winmobile_override>
                         <winphone8>
                             <left>1</left>
                             <right>1</right>
@@ -3657,7 +3657,7 @@
                             <bottom>1</bottom>
                             <unit>px</unit>
                         </winphone8>
-                        <winphone8_override>true</winphone8_override>
+                        <winphone8_override>false</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -4088,7 +4088,7 @@
                         <width>100</width>
                         <height>13</height>
                     </sizePercent>
-                    <skinId>lblRedBigFont</skinId>
+                    <skinId>sknLblKonyThemeBigSize</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -4143,7 +4143,7 @@
                             <bottom>5</bottom>
                             <unit>px</unit>
                         </android>
-                        <android_override>true</android_override>
+                        <android_override>false</android_override>
                         <bb>
                             <left>0</left>
                             <right>0</right>
@@ -4162,8 +4162,8 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
-                            <right>0</right>
+                            <left>3</left>
+                            <right>3</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -4199,7 +4199,7 @@
                             <bottom>1</bottom>
                             <unit>px</unit>
                         </iphonerc>
-                        <iphonerc_override>true</iphonerc_override>
+                        <iphonerc_override>false</iphonerc_override>
                         <j2me>
                             <left>0</left>
                             <right>0</right>
@@ -4296,7 +4296,7 @@
                             <unit>px</unit>
                         </winmobile6x>
                         <winmobile6x_override>true</winmobile6x_override>
-                        <winmobile_override>true</winmobile_override>
+                        <winmobile_override>false</winmobile_override>
                         <winphone8>
                             <left>1</left>
                             <right>1</right>
@@ -4304,7 +4304,7 @@
                             <bottom>1</bottom>
                             <unit>px</unit>
                         </winphone8>
-                        <winphone8_override>true</winphone8_override>
+                        <winphone8_override>false</winphone8_override>
                         <xhtmlAdvBB>
                             <left>3</left>
                             <right>3</right>
@@ -4320,7 +4320,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaAndroid>
-                        <spaAndroid_override>true</spaAndroid_override>
+                        <spaAndroid_override>false</spaAndroid_override>
                         <spaBB>
                             <left>3</left>
                             <right>3</right>
@@ -4335,8 +4335,8 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaBBNth>
-                        <spaBBNth_override>true</spaBBNth_override>
-                        <spaBB_override>true</spaBB_override>
+                        <spaBBNth_override>false</spaBBNth_override>
+                        <spaBB_override>false</spaBB_override>
                         <spaIphone>
                             <left>3</left>
                             <right>3</right>
@@ -4352,7 +4352,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaWindows>
-                        <spaWindows_override>true</spaWindows_override>
+                        <spaWindows_override>false</spaWindows_override>
                         <xhtmlAdvAndroid>
                             <left>3</left>
                             <right>3</right>
@@ -5386,7 +5386,7 @@
                             <width>38</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>lblNormal</skinId>
+                        <skinId>sknLblKonyThemeNormal</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -6032,7 +6032,7 @@
                             <width>48</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>lblNormal</skinId>
+                        <skinId>sknLblKonyThemeNormal</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -6687,7 +6687,7 @@
                         <width>100</width>
                         <height>33</height>
                     </sizePercent>
-                    <skinId>lblSmallFont</skinId>
+                    <skinId>sknLblKonyThemeSmallSize</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -8091,7 +8091,7 @@
                     <width>100</width>
                     <height>19</height>
                 </sizePercent>
-                <skinId>lblSkinSegment</skinId>
+                <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -8737,7 +8737,7 @@
                     <width>100</width>
                     <height>19</height>
                 </sizePercent>
-                <skinId>lblSkinSegment</skinId>
+                <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -9383,7 +9383,7 @@
                     <width>100</width>
                     <height>19</height>
                 </sizePercent>
-                <skinId>lblSkinSegment</skinId>
+                <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -16683,7 +16683,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     <width>99</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>lblProdTitle</skinId>
+                <skinId>sknLblKonyThemeContentHdr</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>

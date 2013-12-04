@@ -7,7 +7,9 @@
     <skin name="himgstrip2_skin" value="hStrip2Normal"/>
     <skin name="datagrid_alternate_skin" value="dgRow"/>
     <skin name="textfield_skin" value="tbxNormal"/>
+    <skin name="row_skin_focus" value="sknHboxKonyThemeTransparant"/>
     <skin name="datagrid_header_skin" value="dgHead"/>
+    <skin name="segment2_widget_skin" value="sknSegKonyThemeRowNormal"/>
     <skin name="camera_skin" value="sknCamKonyThemeNormal"/>
     <skin name="segment_sec_skin_focus" value="segHeader"/>
     <skin name="label_skin" value="sknLblKonyThemeNormal"/>
@@ -18,7 +20,7 @@
     <skin name="checkboxgroup_skin" value="sknCbxKonyThemeNormal"/>
     <skin name="line_skin" value="lineNormal"/>
     <skin name="himgstrip_skin_focus" value="hStripFocus"/>
-    <skin name="row_skin" value="sknHboxKonyThemeWhiteBG"/>
+    <skin name="row_skin" value="sknHboxKonyThemeTransparant"/>
     <skin name="himgstrip2_skin_focus" value="hStrip2Focus"/>
     <skin name="phone_skin_focus" value="sknPhoneKonyThemeFocus"/>
     <skin name="imagegallery2_skin_focus" value="gal2Focus"/>
