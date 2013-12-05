@@ -32,7 +32,7 @@
             <srcformatvalue></srcformatvalue>
             <target></target>
             <targetdatatype></targetdatatype>
-            <testvalue>bag</testvalue>
+            <testvalue></testvalue>
             <value></value>
         </inparam>
         <inparam>

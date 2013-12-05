@@ -537,7 +537,7 @@
                 <serviceType>0</serviceType>
             </rightTitleEvtData>
             <rightTitleI18Key>None</rightTitleI18Key>
-            <rightbtnImgPath>thome.png</rightbtnImgPath>
+            <rightbtnImgPath>home_ico_n.png</rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>sknTitleKonyTheme</skinID>
             <usrDefFunction></usrDefFunction>

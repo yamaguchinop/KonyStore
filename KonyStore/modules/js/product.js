@@ -37,6 +37,7 @@ function prodListCallback(status, gcList)
 					if(gcList["productsCollection"][i]["imgProductImage"] =="" ||gcList["productsCollection"][i]["imgProductImage"] ==null ||gcList["productsCollection"][i]["imgProductImage"] ==undefined)
 					{
 						img = "noimage.png"
+						alert("entered here");
 					}
 					else
 					{

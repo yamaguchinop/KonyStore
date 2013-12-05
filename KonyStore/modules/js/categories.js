@@ -7,10 +7,10 @@
 */
 function callAppMenu() {
     var appMenu = [
-          ["WDeals", "Weekly Deals", "sale.png", appmenu_callback_seq],
-          ["BStore", "Browse Store", "browse_store.png", appmenu_callback_seq],
-          ["SCart", "Shopping Cart", "shopping_cart.png", appmenu_callback_seq],
-          ["Store", "Store Locator", "store_locator.png", appmenu_callback_seq]
+          ["WDeals", "Weekly Deals", "deals_ico_n.png", appmenu_callback_seq],
+          ["BStore", "Browse Store", "stores_ico_n.png", appmenu_callback_seq],
+          ["SCart", "Shopping Cart", "cart_ico_n.png", appmenu_callback_seq],
+          ["Store", "Store Locator", "locator_ico_n.png", appmenu_callback_seq]
         
     ];
     kony.application.createAppMenu("KonyBestBuyAppMenu", appMenu, null, null);

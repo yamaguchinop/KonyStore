@@ -545,7 +545,7 @@
                 <serviceType>0</serviceType>
             </rightTitleEvtData>
             <rightTitleI18Key>None</rightTitleI18Key>
-            <rightbtnImgPath>thome.png</rightbtnImgPath>
+            <rightbtnImgPath>home_ico_n.png</rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>sknTitleKonyTheme</skinID>
             <usrDefFunction></usrDefFunction>
@@ -4042,9 +4042,9 @@
                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
-            <widgetSkin>seg2Focus</widgetSkin>
+            <widgetSkin>Skin Defaults</widgetSkin>
             <rowSkin>Skin Defaults</rowSkin>
-            <rowFocusSkin>SegRowFoc</rowFocusSkin>
+            <rowFocusSkin>Skin Defaults</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <secHeaderSkin>Skin Defaults</secHeaderSkin>
             <thickness>1</thickness>
