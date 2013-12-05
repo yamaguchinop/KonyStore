@@ -28,22 +28,28 @@ function getSrchProduct()
 */
 function prodListCallback(status, gcList)
 {	
-	
-	if (status == 400){
-			if (gcList["opstatus"] == 0) {
+	var img ,descrption,price,salePrice;
+	if (status == 400)
+	{
+			if (gcList["opstatus"] == 0) 
+			{
 			var tmp =[],img,price,salePrice,flag;
-			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
-				for(var i=0;i<gcList["productsCollection"].length;i++ ){
-					if(gcList["productsCollection"][i]["imgProductImage"] =="" ||gcList["productsCollection"][i]["imgProductImage"] ==null ||gcList["productsCollection"][i]["imgProductImage"] ==undefined)
+			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 )
+			{
+				for(var i=0;i<gcList["productsCollection"].length;i++ )
+				{
+					if(gcList["productsCollection"][i]["lblProductDescription"] =="" ||gcList["productsCollection"][i]["lblProductDescription"] ==null ||gcList["productsCollection"][i]["lblProductDescription"] ==undefined)
 					{
-						img = "noimage.png"
-						alert("entered here");
+						img = "noimage.png";
+						descrption = "Description coming soon";
 					}
 					else
 					{
 						//#ifdef windows8
+							descrption = gcList["productsCollection"][i]["lblProductDescription"];
 							img = gcList["productsCollection"][i]["imgProductImage"];
 						//#else
+							descrption = gcList["productsCollection"][i]["lblProductDescription"];
 							img = gcList["productsCollection"][i]["imgProductMediumImage"];
 						//#endif
 					}
@@ -52,8 +58,9 @@ function prodListCallback(status, gcList)
 					{
 						price = "";
 						salePrice = "On Sale: $" + gcList["productsCollection"][i]["lblProductSalePrice"]+ "!";
-					 } 
-					 else {
+					} 
+					else
+					{
 						price = "$" + gcList["productsCollection"][i]["lblProductPrice"];
 						salePrice = "";
 					}
@@ -62,16 +69,16 @@ function prodListCallback(status, gcList)
 						"lblPName":gcList["productsCollection"][i]["lblProductName"],
 						"lblPrice":price,
 						"lblSalesPrice":salePrice,
-						"lblDesc":gcList["productsCollection"][i]["lblProductDescription"],
+						"lblDesc":descrption,
 						"lblSku":gcList["productsCollection"][i]["sku"],
 						"lblReview":gcList["productsCollection"][i]["lblProductReview"]
 							});
-					}	
-					frmProduct.segProdList.setData(tmp);
-					frmProduct.segProdList.setVisibility(true);
-					frmProduct.lblInfo.setVisibility(false);  
-					frmProduct.hbxBord.setVisibility(false);          
-	          }
+				}	
+				frmProduct.segProdList.setData(tmp);
+				frmProduct.segProdList.setVisibility(true);
+				frmProduct.lblInfo.setVisibility(false);  
+				frmProduct.hbxBord.setVisibility(false);          
+	         }
 	         else
 	         {
 		         frmProduct.lblInfo.text = "No details found for product category '"+scatName+"'";
@@ -80,12 +87,13 @@ function prodListCallback(status, gcList)
 		         frmProduct.segProdList.setVisibility(false);
 		         frmProduct.hbxBord.setVisibility(true);
 	         }
-	         		//frmProduct.lblcate.text = "Category: "+scatName
+	         	//frmProduct.lblcate.text = "Category: "+scatName
 	         	frmProduct.title = scatName;
 	         	frmProduct.show(); 
 	         	kony.application.dismissLoadingScreen(); 
 	     }
-	     else{
+	     else
+	     {
             	alert("Please check network connection and try again.");
             	frmProduct.segProdList.setVisibility(false);
             	kony.application.dismissLoadingScreen();    	
@@ -104,7 +112,14 @@ function prodListCallback(status, gcList)
 function showProductDetails(){			
 	frmProdDetails.lblPrice.text = frmProduct.segProdList.selectedItems[0].lblPrice;
 	frmProdDetails.lblSalesPrice.text = frmProduct.segProdList.selectedItems[0].lblSalesPrice;
-	frmProdDetails.lblDesc.text = frmProduct.segProdList.selectedItems[0].lblDesc;
+	if(frmProduct.segProdList.selectedItems[0].lblDesc == "" || frmProduct.segProdList.selectedItems[0].lblDesc ==null)
+	{
+		frmProdDetails.lblDesc.text = "Description coming soon"
+	}
+	else
+	{	
+		frmProdDetails.lblDesc.text = frmProduct.segProdList.selectedItems[0].lblDesc;
+	}
 	frmProdDetails.prdName.text = frmProduct.segProdList.selectedItems[0].lblPName;
 	frmProdDetails.prdImg.src = frmProduct.segProdList.selectedItems[0].prodImg;
 	frmProdDetails.title = frmProduct.title;
