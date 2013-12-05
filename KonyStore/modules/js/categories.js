@@ -154,10 +154,13 @@ function subCatListCallback(status, gcList)
 {	
 	
 	if (status == 400){
-		if (gcList["opstatus"] == 0) {
+		if (gcList["opstatus"] == 0) 
+		{
 			var tmp =[];
-			if ((gcList["category"] != null|| gcList["category"] != undefined ) && gcList["category"].length > 0){
-				for(var i=0;i<gcList["category"].length;i++){
+			if ((gcList["category"] != null|| gcList["category"] != undefined ) && gcList["category"].length > 0)
+			{
+				for(var i=0;i<gcList["category"].length;i++)
+				{
 					tmp.push({
 						"categoryName":gcList["category"][i]["name"],
 						"categoryID":gcList["category"][i]["id"]
@@ -165,9 +168,12 @@ function subCatListCallback(status, gcList)
 					}	
 					frmSubCat.segcatList.setData(tmp);
 					
-					if(kony.os.deviceInfo().name != "iPad"){
+					if(kony.os.deviceInfo().name != "iPad")
+					{
 						frmSubCat.lblSubHeader.text = scatName;
-					}else{
+					}
+					else
+					{
 						
 						if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
 						{
@@ -203,7 +209,8 @@ function subCatListCallback(status, gcList)
 				          	          
 	          }
 	     }
-	     else{
+	     else
+	     {
             	alert("Please check network connection and try again.");
             	kony.application.dismissLoadingScreen();      	
    				return;	                 

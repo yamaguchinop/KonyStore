@@ -38,7 +38,7 @@ function prodListCallback(status, gcList)
 			{
 				for(var i=0;i<gcList["productsCollection"].length;i++ )
 				{
-					if(gcList["productsCollection"][i]["lblProductDescription"] =="" ||gcList["productsCollection"][i]["lblProductDescription"] ==null ||gcList["productsCollection"][i]["lblProductDescription"] ==undefined)
+					if(gcList["productsCollection"][i]["lblProductDescription"] =="" ||gcList["productsCollection"][i]["lblProductDescription"] ==null )
 					{
 						img = "noimage.png";
 						descrption = "Description coming soon";
@@ -109,17 +109,19 @@ function prodListCallback(status, gcList)
 *	Purpose : This function is to show product details of the selected product.
 ****************************************************************
 */
-function showProductDetails(){			
+function showProductDetails()
+{			
+	var x = frmProduct.segProdList.selectedItems[0].prodImg.rawBytes;
+	var y= kony.convertToBase64(x);
+	kony.print("raw \n");
+	kony.print(x);
+	kony.print("base\n");
+	kony.print(y);
+	
+	
 	frmProdDetails.lblPrice.text = frmProduct.segProdList.selectedItems[0].lblPrice;
 	frmProdDetails.lblSalesPrice.text = frmProduct.segProdList.selectedItems[0].lblSalesPrice;
-	if(frmProduct.segProdList.selectedItems[0].lblDesc == "" || frmProduct.segProdList.selectedItems[0].lblDesc ==null)
-	{
-		frmProdDetails.lblDesc.text = "Description coming soon"
-	}
-	else
-	{	
-		frmProdDetails.lblDesc.text = frmProduct.segProdList.selectedItems[0].lblDesc;
-	}
+	frmProdDetails.lblDesc.text = frmProduct.segProdList.selectedItems[0].lblDesc;
 	frmProdDetails.prdName.text = frmProduct.segProdList.selectedItems[0].lblPName;
 	frmProdDetails.prdImg.src = frmProduct.segProdList.selectedItems[0].prodImg;
 	frmProdDetails.title = frmProduct.title;
@@ -127,8 +129,8 @@ function showProductDetails(){
 	frmProdDetails.lblReview.text =flag;
 	var flag1 = 0;
 	if(flag!=null && flag!="")
-	 flag1 = kony.math.toInteger(kony.os.toNumber(flag));
-	 frmProdDetails.imgReview.setVisibility(true);
+	 	flag1 = kony.math.toInteger(kony.os.toNumber(flag));
+	frmProdDetails.imgReview.setVisibility(true);
 	switch(flag1)
 	{
 		case 1:frmProdDetails.imgReview.src="stars1.png";
