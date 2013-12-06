@@ -7,8 +7,8 @@
 */
 function callAppMenu() {
     var appMenu = [
+     	  ["BStore", "Browse Store", "stores_ico_n.png", home_callback_seq],
           ["WDeals", "Weekly Deals", "deals_ico_n.png", appmenu_callback_seq],
-          ["BStore", "Browse Store", "stores_ico_n.png", home_callback_seq],
           ["SCart", "Shopping Cart", "cart_ico_n.png", appmenu_callback_seq],
           ["Store", "Store Locator", "locator_ico_n.png", appmenu_callback_seq]
         

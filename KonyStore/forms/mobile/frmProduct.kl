@@ -426,7 +426,7 @@
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
         <headerId>hdrLogo</headerId>
-        <footerId>None</footerId>
+        <footerId>ftrLogo</footerId>
         <title></title>
         <preShow_root>
             <evtSequence>
