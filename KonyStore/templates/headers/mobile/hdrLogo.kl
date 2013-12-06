@@ -1507,13 +1507,13 @@
                 </rendererData>
                 <margins>
                     <android>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>2</left>
+                        <right>2</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </android>
-                    <android_override>false</android_override>
+                    <android_override>true</android_override>
                     <bb>
                         <left>0</left>
                         <right>0</right>
@@ -1774,13 +1774,13 @@
                 </margins>
                 <paddings>
                     <android>
-                        <left>3</left>
-                        <right>0</right>
+                        <left>2</left>
+                        <right>2</right>
                         <top>2</top>
                         <bottom>2</bottom>
                         <unit>%</unit>
                     </android>
-                    <android_override>false</android_override>
+                    <android_override>true</android_override>
                     <bb>
                         <left>3</left>
                         <right>0</right>
@@ -2076,6 +2076,7 @@ else
                 <placeholder_I18N></placeholder_I18N>
                 <keyboard_type>0</keyboard_type>
                 <overrideProperties>KTextBox2.android_placeholderSkin</overrideProperties>
+                <overrideProperties>KTextBox2.android_view</overrideProperties>
                 <overrideProperties>KTextBox2.ipad_containerHeightMode</overrideProperties>
                 <overrideProperties>KTextBox2.iphone_containerHeightMode</overrideProperties>
                 <overrideProperties>KTextBox2.spa_containerHeightMode</overrideProperties>

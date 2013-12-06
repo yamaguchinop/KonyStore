@@ -126,6 +126,8 @@ function showProductDetails()
 	frmProdDetails.imgReview.setVisibility(true);
 	switch(flag1)
 	{
+		case 0:frmProdDetails.imgReview.setVisibility(false);	
+				break;		
 		case 1:frmProdDetails.imgReview.src="stars1.png";
 				break;
 		case 2:frmProdDetails.imgReview.src="stars2.png";

@@ -716,7 +716,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>titleBar</skinID>
+            <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -6895,7 +6895,7 @@
                             <unit>px</unit>
                         </winmobile6x>
                         <winmobile6x_override>true</winmobile6x_override>
-                        <winmobile_override>true</winmobile_override>
+                        <winmobile_override>false</winmobile_override>
                         <winphone8>
                             <left>3</left>
                             <right>3</right>
@@ -6903,7 +6903,7 @@
                             <bottom>3</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>true</winphone8_override>
+                        <winphone8_override>false</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -7406,11 +7406,11 @@
                 <android>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>true</android_override>
+                <android_override>false</android_override>
                 <bb>
                     <left>4</left>
                     <right>4</right>
@@ -7426,13 +7426,13 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>true</bb_override>
+                <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>4</left>
-                    <right>4</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -7466,7 +7466,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </iphonerc>
-                <iphonerc_override>true</iphonerc_override>
+                <iphonerc_override>false</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -7563,7 +7563,7 @@
                     <unit>%</unit>
                 </winmobile6x>
                 <winmobile6x_override>false</winmobile6x_override>
-                <winmobile_override>true</winmobile_override>
+                <winmobile_override>false</winmobile_override>
                 <winphone8>
                     <left>0</left>
                     <right>0</right>
@@ -7587,7 +7587,7 @@
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </spaAndroid>
-                <spaAndroid_override>true</spaAndroid_override>
+                <spaAndroid_override>false</spaAndroid_override>
                 <spaBB>
                     <left>4</left>
                     <right>4</right>
@@ -7602,8 +7602,8 @@
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </spaBBNth>
-                <spaBBNth_override>true</spaBBNth_override>
-                <spaBB_override>true</spaBB_override>
+                <spaBBNth_override>false</spaBBNth_override>
+                <spaBB_override>false</spaBB_override>
                 <spaIphone>
                     <left>4</left>
                     <right>4</right>
@@ -7611,7 +7611,7 @@
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </spaIphone>
-                <spaIphone_override>true</spaIphone_override>
+                <spaIphone_override>false</spaIphone_override>
                 <spaWindows>
                     <left>4</left>
                     <right>4</right>
@@ -7619,7 +7619,7 @@
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </spaWindows>
-                <spaWindows_override>true</spaWindows_override>
+                <spaWindows_override>false</spaWindows_override>
                 <xhtmlAdvAndroid>
                     <left>4</left>
                     <right>4</right>
@@ -12329,7 +12329,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>true</android_override>
+                <android_override>false</android_override>
                 <bb>
                     <left>0</left>
                     <right>0</right>
@@ -12345,13 +12345,13 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>true</bb_override>
+                <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -12385,7 +12385,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </iphonerc>
-                <iphonerc_override>true</iphonerc_override>
+                <iphonerc_override>false</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -12482,7 +12482,7 @@
                     <unit>%</unit>
                 </winmobile6x>
                 <winmobile6x_override>false</winmobile6x_override>
-                <winmobile_override>true</winmobile_override>
+                <winmobile_override>false</winmobile_override>
                 <winphone8>
                     <left>0</left>
                     <right>0</right>
@@ -12490,7 +12490,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </winphone8>
-                <winphone8_override>true</winphone8_override>
+                <winphone8_override>false</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -12588,8 +12588,8 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <direction>0</direction>
-            <usePercent>true</usePercent>
+            <direction>-1</direction>
+            <usePercent>false</usePercent>
             <orientation>constants.BOX_LAYOUT_HORIZONTAL</orientation>
             <tc_onClick_root>
                 <evtSequence>
@@ -14066,7 +14066,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </android>
-                        <android_override>true</android_override>
+                        <android_override>false</android_override>
                         <bb>
                             <left>0</left>
                             <right>0</right>
@@ -14082,7 +14082,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                             <unit>%</unit>
                         </bb10>
                         <bb10_override>false</bb10_override>
-                        <bb_override>true</bb_override>
+                        <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
                             <left>1</left>
@@ -14122,7 +14122,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                             <bottom>0</bottom>
                             <unit>px</unit>
                         </iphonerc>
-                        <iphonerc_override>true</iphonerc_override>
+                        <iphonerc_override>false</iphonerc_override>
                         <j2me>
                             <left>0</left>
                             <right>0</right>
@@ -14219,7 +14219,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                             <unit>px</unit>
                         </winmobile6x>
                         <winmobile6x_override>true</winmobile6x_override>
-                        <winmobile_override>true</winmobile_override>
+                        <winmobile_override>false</winmobile_override>
                         <winphone8>
                             <left>1</left>
                             <right>1</right>
@@ -14227,7 +14227,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                             <bottom>1</bottom>
                             <unit>px</unit>
                         </winphone8>
-                        <winphone8_override>true</winphone8_override>
+                        <winphone8_override>false</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>

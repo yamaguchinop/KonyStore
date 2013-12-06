@@ -718,7 +718,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>titleBar</skinID>
+            <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -2176,13 +2176,13 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>0</top>
                     <bottom>3</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>0</left>
                     <right>0</right>
