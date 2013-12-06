@@ -111,13 +111,6 @@ function prodListCallback(status, gcList)
 */
 function showProductDetails()
 {			
-	var x = frmProduct.segProdList.selectedItems[0].prodImg.rawBytes;
-	var y= kony.convertToBase64(x);
-	kony.print("raw \n");
-	kony.print(x);
-	kony.print("base\n");
-	kony.print(y);
-	
 	
 	frmProdDetails.lblPrice.text = frmProduct.segProdList.selectedItems[0].lblPrice;
 	frmProdDetails.lblSalesPrice.text = frmProduct.segProdList.selectedItems[0].lblSalesPrice;
@@ -149,9 +142,15 @@ function showProductDetails()
 	frmProdDetails.totalReviews.text = "Loading...";
 	frmProdDetails.segReviews.removeAll();
 	if(flag!=null && flag!="")
-	showReviews();
+	{
+		showReviews();
+		frmProdDetails.imgArrow.setVisibility(true);
+	}
 	else
-	frmProdDetails.totalReviews.text = "This product have no reviews.";
+	{
+		frmProdDetails.totalReviews.text = "This product have no reviews.";
+		frmProdDetails.imgArrow.setVisibility(false);
+	}
 	frmProdDetails.show();
 	//frmProdDetails.menucontainer.data = frmProduct.menucontainer.data ;	
 	

@@ -8,7 +8,7 @@
 function callAppMenu() {
     var appMenu = [
           ["WDeals", "Weekly Deals", "deals_ico_n.png", appmenu_callback_seq],
-          ["BStore", "Browse Store", "stores_ico_n.png", appmenu_callback_seq],
+          ["BStore", "Browse Store", "stores_ico_n.png", home_callback_seq],
           ["SCart", "Shopping Cart", "cart_ico_n.png", appmenu_callback_seq],
           ["Store", "Store Locator", "locator_ico_n.png", appmenu_callback_seq]
         
@@ -26,7 +26,6 @@ function callAppMenu() {
 function home_callback_seq()
 {
 	frmHome.show();
-
 }
 /**
 ****************************************************************
@@ -37,7 +36,8 @@ function home_callback_seq()
 */
 function appmenu_callback_seq()
 {
-	frmHome.show();
+	alert(" Not supported ");
+	kony.application.getCurrentForm().show();
 }
 /**
 ****************************************************************
