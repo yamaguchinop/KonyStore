@@ -31,8 +31,8 @@ function prodListCallback(status, gcList)
 	var img ,descrption,price,salePrice;
 	if (status == 400)
 	{
-			if (gcList["opstatus"] == 0) 
-			{
+		if (gcList["opstatus"] == 0) 
+		{
 			var tmp =[],img,price,salePrice,flag;
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 )
 			{
@@ -87,10 +87,10 @@ function prodListCallback(status, gcList)
 		         frmProduct.segProdList.setVisibility(false);
 		         frmProduct.hbxBord.setVisibility(true);
 	         }
-	         	//frmProduct.lblcate.text = "Category: "+scatName
-	         	frmProduct.title = scatName;
-	         	frmProduct.show(); 
-	         	kony.application.dismissLoadingScreen(); 
+         	 //frmProduct.lblcate.text = "Category: "+scatName
+         	 frmProduct.title = scatName;
+         	 frmProduct.show(); 
+         	 kony.application.dismissLoadingScreen(); 
 	     }
 	     else
 	     {

@@ -1,44 +1,4 @@
-/**
-****************************************************************
-*	Name    : callAppMenu
-*	Author  : Kony Solutions
-*	Purpose : This function creates appmenu.
-****************************************************************
-*/
-function callAppMenu() {
-    var appMenu = [
-     	  ["BStore", "Browse Store", "stores_ico_n.png", home_callback_seq],
-          ["WDeals", "Weekly Deals", "deals_ico_n.png", appmenu_callback_seq],
-          ["SCart", "Shopping Cart", "cart_ico_n.png", appmenu_callback_seq],
-          ["Store", "Store Locator", "locator_ico_n.png", appmenu_callback_seq]
-        
-    ];
-    kony.application.createAppMenu("KonyBestBuyAppMenu", appMenu, null, null);
-    kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");
-}
-/**
-****************************************************************
-*	Name    : home_callback_seq
-*	Author  : Kony Solutions
-*	Purpose : This callback function.
-****************************************************************
-*/
-function home_callback_seq()
-{
-	frmHome.show();
-}
-/**
-****************************************************************
-*	Name    : appmenu_callback_seq
-*	Author  : Kony Solutions
-*	Purpose : This callback function.
-****************************************************************
-*/
-function appmenu_callback_seq()
-{
-	alert(" Not supported ");
-	kony.application.getCurrentForm().show();
-}
+
 /**
 ****************************************************************
 *	Name    : getCatList
@@ -75,24 +35,24 @@ function catListCallback(status, gcList)
 			{
 				for(var i=0;i<gcList["category"].length;i++)
 				{
-				//#ifdef desktopweb
-					childData.push({
-				            template: hbxDetails,
-				            "lblDetails": {
-				                "text": gcList["category"][i]["name"],
-				                "skin": "lblWhiteMenu"
-           					}
-           					});
-				//#else
+					/* for desktopweb 
+						childData.push({
+					            template: hbxDetails,
+					            "lblDetails": {
+					                "text": gcList["category"][i]["name"],
+					                "skin": "lblWhiteMenu"
+	           					}
+	           					});
+					*/
 					
 					tmp.push({
 						"categoryName":gcList["category"][i]["name"],
 						"categoryID":gcList["category"][i]["id"]
 							});
-				//#endif
+				
 									
 				}	
-				//#ifdef desktopweb
+				/* desktopweb
 					 var menudata = {
 							        template: hbxProduct,
 							        "lblProduct": {
@@ -103,17 +63,16 @@ function catListCallback(status, gcList)
 								  };
 					    frmHome.menucontainer.setDataAt(menudata,0);
 					    resulttable=gcList["category"];
-				//#else
-					 frmHome.segcatList.setData(tmp);
-					 kony.application.dismissLoadingScreen();   
-				//#endif
-	          }
+				*/
+				 frmHome.segcatList.setData(tmp);
+				 kony.application.dismissLoadingScreen();   
+	         }
 	     }
 	     else
 	     {
-            	alert("Please check network connection and try again.");    	
-   				kony.application.dismissLoadingScreen(); 
-   				return;	                 
+        	alert("Please check network connection and try again.");    	
+			kony.application.dismissLoadingScreen(); 
+			return;	                 
 	     }
 	                	
 	}
@@ -153,57 +112,55 @@ function getSubCatList_ipad()
 function subCatListCallback(status, gcList)
 {	
 	
-	if (status == 400){
+	if (status == 400)
+	{
 		if (gcList["opstatus"] == 0) 
 		{
 			var tmp =[];
 			if ((gcList["category"] != null|| gcList["category"] != undefined ) && gcList["category"].length > 0)
 			{
+				frmSubCat.title=scatName;
 				for(var i=0;i<gcList["category"].length;i++)
 				{
 					tmp.push({
 						"categoryName":gcList["category"][i]["name"],
 						"categoryID":gcList["category"][i]["id"]
 							});
-					}	
-					frmSubCat.segcatList.setData(tmp);
+				}	
+				frmSubCat.segcatList.setData(tmp);
 					
-					if(kony.os.deviceInfo().name != "iPad")
-					{
-						frmSubCat.lblSubHeader.text = scatName;
-					}
-					else
-					{
-						
-						if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
-						{
-							frmSubCat.lblSubCat.text = scatName;
-							frmSubCat.lblSubCat.skin = "lblBlue";
-							frmSubCat.lblSubCat.setVisibility(true);
-						}
-						else if(frmSubCat.lblSubCat2.text == "" || frmSubCat.lblSubCat2.text == null || frmSubCat.lblSubCat2.text == undefined)
-						{
-							frmSubCat.lblSubCat2.text = scatName;
-							frmSubCat.lblSubCat.skin = "lblFoc";
-							frmSubCat.lblSubCat2.skin = "lblBlue";
-							frmSubCat.lblSubCat2.setVisibility(true);
-						}
+			/*	if(kony.os.deviceInfo().name != "iPad")
+				{
+					frmSubCat.lblSubHeader.text = scatName;
+				}
+				else
+				{
 					
+					if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
+					{
+						frmSubCat.lblSubCat.text = scatName;
+						frmSubCat.lblSubCat.skin = "lblBlue";
+						frmSubCat.lblSubCat.setVisibility(true);
 					}
-					frmSubCat.lblState.setFocus(true);
-					frmSubCat.title=scatName;
+					else if(frmSubCat.lblSubCat2.text == "" || frmSubCat.lblSubCat2.text == null || frmSubCat.lblSubCat2.text == undefined)
+					{
+						frmSubCat.lblSubCat2.text = scatName;
+						frmSubCat.lblSubCat.skin = "lblFoc";
+						frmSubCat.lblSubCat2.skin = "lblBlue";
+						frmSubCat.lblSubCat2.setVisibility(true);
+					}
+				
+				}
+				frmSubCat.lblState.setFocus(true);*/	
+				if(kony.application.getCurrentForm().id != "frmSubCat")			
 					frmSubCat.show();  
-					kony.application.dismissLoadingScreen();            
+				kony.application.dismissLoadingScreen();            
 	          }
 	          else
 	          {
 	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
-	         //  	frmProduct.hboxCat.setVisibility(true);
-	          	//#ifdef windows8
-	          		
-	          	//#else
-				    hbxSearch.setVisibility(true);	          		
-	          	//#endif
+	        	 // frmProduct.hboxCat.setVisibility(true);
+	            hbxSearch.setVisibility(true);	          		
 	          	frmProduct.hbxSrch.setVisibility(false);
 				var ProductList = appmiddlewareinvokerasync(prodList, prodListCallback);
 				          	          
@@ -256,12 +213,7 @@ function subCatListCallbackIpad(status, gcList)
 	          else
 	          {
 	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
-	      //     	frmProduct.hboxCat.setVisibility(true);
-	          	//#ifdef windows8
-	          		
-	          	//#else
-				    hbxSearch.setVisibility(true);	          		
-	          	//#endif
+	      	    hbxSearch.setVisibility(true);	          		
 	          	frmProduct.hbxSrch.setVisibility(false);
 				var ProductList = appmiddlewareinvokerasync(prodList, prodListCallback);
 				          	          

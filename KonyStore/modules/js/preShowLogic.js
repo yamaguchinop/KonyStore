@@ -34,9 +34,7 @@ function preShowSubCat(){
 */
 function preShowProdDetails(){
 	
-	//#ifdef iphone
-		hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
-	//#endif
+	hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
 	if(frmProdDetails.lblReview.text=="")
 	{
 		frmProdDetails.lblReview.text="No Reviews";	
@@ -54,11 +52,8 @@ function preShowProdDetails(){
 ****************************************************************
 */
 function preShowProdDetailsIpad(){
-	//#ifdef windows8
-	frmProdDetails.title="Kony BestBuy";
-	//#else
-		hbxSearch.setVisibility(false);
-	//#endif
+	// For windows8 	frmProdDetails.title="Kony BestBuy";
+	hbxSearch.setVisibility(false);
 	
 	if(frmProdDetails.lblReview.text=="")
 	{
