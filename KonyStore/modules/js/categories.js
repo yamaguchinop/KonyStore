@@ -1,6 +1,19 @@
 
 /**
 ****************************************************************
+*	Name    : Navigate to home
+*	Author  : Kony Solutions
+*	Purpose : This function is used to show home form
+****************************************************************
+*/
+function showFrmHome()
+{
+	frmHome.show();
+}
+
+
+/**
+****************************************************************
 *	Name    : getCatList
 *	Author  : Kony Solutions
 *	Purpose : This function invokes BestBuy service.
@@ -159,7 +172,7 @@ function subCatListCallback(status, gcList)
 	          else
 	          {
 	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
-	        	 // frmProduct.hboxCat.setVisibility(true);
+	        	//frmProduct.hboxCat.setVisibility(true);
 	            hbxSearch.setVisibility(true);	          		
 	          	frmProduct.hbxSrch.setVisibility(false);
 				var ProductList = appmiddlewareinvokerasync(prodList, prodListCallback);
@@ -192,7 +205,7 @@ function subCatListCallbackIpad(status, gcList)
 					}	
 					frmSubCat.segcatList.setData(tmp);
 					
-					if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
+					/*if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
 						{
 							frmSubCat.lblSubCat.text = scatName;
 							frmSubCat.lblSubCat.skin = "lblBlue";
@@ -206,7 +219,7 @@ function subCatListCallbackIpad(status, gcList)
 							frmSubCat.lblSubCat2.setVisibility(true);
 						}
 				
-					frmSubCat.lblState.setFocus(true);
+					frmSubCat.lblState.setFocus(true);*/
 					frmSubCat.show();  
 					kony.application.dismissLoadingScreen();            
 	          }
