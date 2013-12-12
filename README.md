@@ -18,3 +18,5 @@ Steps to get the API key:
 **Mobile**
  * Android
  * iPhone
+ * SPA Android
+ * SPA iPhone
