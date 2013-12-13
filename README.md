@@ -20,3 +20,4 @@ Steps to get the API key:
  * iPhone
  * SPA Android
  * SPA iPhone
+ * SPA BlackBerry 
