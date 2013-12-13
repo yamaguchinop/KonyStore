@@ -92,7 +92,7 @@
     <attributes name="SELECTED_THEME" value="KonyTheme"/>
     <attributes name="GET_TASKS" value="false"/>
     <attributes name="Music_Library" value="true"/>
-    <attributes name="tabletstartupformkey" value="frmHome"/>
+    <attributes name="tabletstartupformkey" value="frmAPIKey"/>
     <attributes name="tciphonebasefontsize" value="12"/>
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>

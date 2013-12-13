@@ -93,7 +93,7 @@
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
-            <tc_spabb>false</tc_spabb>
+            <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>false</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>false</tc_spawindows>
@@ -1348,8 +1348,8 @@
                 <spaBB>
                     <left>0</left>
                     <right>0</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
@@ -1878,10 +1878,10 @@ scatName = frmHome.segcatList.selectedItems[0].categoryName;
                     </spaAndroid>
                     <spaAndroid_override>false</spaAndroid_override>
                     <spaBB>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaBB>
                     <spaBBNth>
