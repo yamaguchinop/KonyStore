@@ -18,8 +18,8 @@ function preShowProduct(){
 *	Purpose : This function is subcategory preshow to handle the form pre show logic.
 ****************************************************************
 */
-function preShowSubCat(){
-	
+function preShowSubCat()
+{
 	
 	hbxSearch.setVisibility(true);
 	hbxSearch.txtbxSrch.text="";

@@ -1782,10 +1782,10 @@
                     </android>
                     <android_override>false</android_override>
                     <bb>
-                        <left>3</left>
-                        <right>0</right>
+                        <left>2</left>
+                        <right>2</right>
                         <top>2</top>
-                        <bottom>2</bottom>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </bb>
                     <bb10>

@@ -639,7 +639,7 @@
         <bb_ignoreescape>false</bb_ignoreescape>
         <bb_orientation>0</bb_orientation>
         <blackberry_no_of_items>0</blackberry_no_of_items>
-        <bb_titleskinId>Skin Defaults</bb_titleskinId>
+        <bb_titleskinId>sknTitleKonyTheme</bb_titleskinId>
         <bbTitlebar>true</bbTitlebar>
         <BBSkinAroundPopup>Skin Defaults</BBSkinAroundPopup>
         <autofocus>true</autofocus>
@@ -1683,10 +1683,10 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </android>
                     <android_override>false</android_override>
                     <bb>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </bb>
                     <bb10>
@@ -2331,10 +2331,10 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>3</left>
-                    <right>0</right>
+                    <left>4</left>
+                    <right>4</right>
                     <top>1</top>
-                    <bottom>1</bottom>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -2612,7 +2612,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
                     <left>0</left>
@@ -2981,10 +2981,10 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </android>
                     <android_override>true</android_override>
                     <bb>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </bb>
                     <bb10>
@@ -2995,7 +2995,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                         <unit>%</unit>
                     </bb10>
                     <bb10_override>false</bb10_override>
-                    <bb_override>false</bb_override>
+                    <bb_override>true</bb_override>
                     <default_override>true</default_override>
                     <defaults>
                         <left>0</left>
@@ -3250,8 +3250,8 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <bb>
                         <left>1</left>
                         <right>1</right>
-                        <top>3</top>
-                        <bottom>3</bottom>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </bb>
                     <bb10>
@@ -3553,6 +3553,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
             <winphone8_position>0</winphone8_position>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.bbTitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <overrideProperties>KForm.pb_titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>

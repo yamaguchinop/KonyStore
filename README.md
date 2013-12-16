@@ -18,6 +18,8 @@ Steps to get the API key:
 **Mobile**
  * Android
  * iPhone
+ * BlackBerry 
  * SPA Android
  * SPA iPhone
  * SPA BlackBerry 
+

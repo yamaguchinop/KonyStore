@@ -97,7 +97,7 @@
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
-    <attributes name="splashlogokey" value="1=splash.png,8=splash.9.png,2=splash.png,3=splash.png,42=splash.png,16=splash.png,18=splash.9.png,22=splash.png,23=splash.png,24=splash.png,31=splash.png,32=splash.png,37=splash.png"/>
+    <attributes name="splashlogokey" value="1=splash.png,8=splash.9.png,2=splash.png,42=splash.png,3=splash.png,16=splash.png,18=splash.9.png,22=splash.png,23=splash.png,24=splash.png,31=splash.png,32=splash.png,37=splash.png"/>
     <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
@@ -123,7 +123,7 @@
     <attributes name="desktopwebnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="tcbb360basefontsize" value="13"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
-    <attributes name="bgcolorkey" value="181,217,245"/>
+    <attributes name="bgcolorkey" value="72,179,208"/>
     <attributes name="BIND_APPWIDGET" value="false"/>
     <attributes name="wp8cycle5key" value=""/>
     <attributes name="ipadlandscapemodekey" value="false"/>
@@ -347,6 +347,7 @@
     <attributes name="wp8cyclesmallkey" value=""/>
     <attributes name="bb10description" value=""/>
     <attributes name="ACCESS_LOCATION_EXTRA_COMMANDS" value="false"/>
+    <attributes name="appaddrkey" value="http://10.10.5.91:8080"/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="WRITE_CONTACTS" value="false"/>
     <attributes name="VIBRATE" value="false"/>
@@ -385,7 +386,7 @@
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="tcnth320basefontsize" value="15"/>
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
-    <attributes name="svcaddrkey" value="10.10.4.86"/>
+    <attributes name="svcaddrkey" value="http://10.10.5.91:8080"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
@@ -410,7 +411,7 @@
     <attributes name="bbservicemenuitemlabel" value=""/>
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="FORCE_BACK" value="false"/>
-    <attributes name="fgcolorkey" value="255,255,255"/>
+    <attributes name="fgcolorkey" value="29,147,196"/>
     <attributes name="APPLICATION_THEME" value="KonyTheme"/>
     <attributes name="camerasettings" value=""/>
     <attributes name="pathprefixkey" value=""/>
