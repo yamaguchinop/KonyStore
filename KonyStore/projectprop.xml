@@ -198,6 +198,7 @@
     <attributes name="bb10packageid" value=""/>
     <attributes name="win8shortnamekey" value="KonyStroe"/>
     <attributes name="MASTER_CLEAR" value="false"/>
+    <attributes name="post_notification" value="false"/>
     <attributes name="tcnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="wp8supportlargetileskey" value="true"/>
     <attributes name="win8shownamekey" value="Not set"/>
@@ -210,7 +211,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.0.GA_v201311292058"/>
+    <attributes name="currentgaversion" value="5.5.39.QA_v201312161549"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -325,7 +326,7 @@
     <attributes name="androidInstallLocnPref" value="false"/>
     <attributes name="tcpalm240basefontsize" value="10"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
-    <attributes name="cloud_url" value="http://10.10.5.91:8080"/>
+    <attributes name="cloud_url" value="http://10.10.5.130:8080"/>
     <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
@@ -335,7 +336,7 @@
     <attributes name="sessionmanager" value="Kony Session Manager"/>
     <attributes name="appversioncode" value="1"/>
     <attributes name="RECEIVE_WAP_PUSH" value="false"/>
-    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080,http://10.10.5.91:8080"/>
+    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080,http://10.10.5.130:8080"/>
     <attributes name="customgcmbroadcastreceiver" value=""/>
     <attributes name="WP8_ID_CAP_REMOVABLE_STORAGE" value="true"/>
     <attributes name="MODIFY_PHONE_STATE" value="false"/>

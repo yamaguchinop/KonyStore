@@ -1,3 +1,4 @@
+
 /**
 ****************************************************************
 *	Name    : getSrchProduct
@@ -7,7 +8,7 @@
 */
 function getSrchProduct()
 {
-	
+	previousForm = kony.application.getCurrentForm().id;
 	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
 	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:gApiKey };
 	//frmProduct.hboxCat.setVisibility(false);
@@ -27,7 +28,9 @@ function getSrchProduct()
 ****************************************************************
 */
 function prodListCallback(status, gcList)
-{	
+{
+	if(kony.os.deviceInfo().name == "WindowsPhone")
+		scatNameWindows =hbxWinTtl.lblSubCatTtl.text;
 	var img ,descrption,price,salePrice;
 	if (status == 400)
 	{
@@ -87,7 +90,10 @@ function prodListCallback(status, gcList)
 		         frmProduct.segProdList.setVisibility(false);
 		         frmProduct.hbxBord.setVisibility(true);
 	         }
+	         
          	 //frmProduct.lblcate.text = "Category: "+scatName
+			 if(kony.os.deviceInfo().name == "WindowsPhone")
+			 	hbxWinTtl.lblSubCatTtl.text =scatName;
          	 frmProduct.title = scatName;
          	 frmProduct.show(); 
          	 kony.application.dismissLoadingScreen(); 

@@ -9,6 +9,10 @@
 function preShowProduct(){
 	
 	hbxSearch.setVisibility(false);
+	if(kony.os.deviceInfo().name =="blackberry")
+	{
+		hbxSearch.txtbxSrch.setVisibility(false);
+	}
 }
 
 /**
@@ -22,7 +26,12 @@ function preShowSubCat()
 {
 	
 	hbxSearch.setVisibility(true);
+	if(kony.os.deviceInfo().name =="blackberry")
+	{
+		hbxSearch.txtbxSrch.setVisibility(true);
+	}
 	hbxSearch.txtbxSrch.text="";
+	
 }
 
 /**
@@ -35,6 +44,10 @@ function preShowSubCat()
 function preShowProdDetails(){
 	
 	hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
+	if(kony.os.deviceInfo().name =="blackberry")
+	{
+		hbxSearch.txtbxSrch.setVisibility(false);
+	}
 	if(frmProdDetails.lblReview.text=="")
 	{
 		frmProdDetails.lblReview.text="No Reviews";	

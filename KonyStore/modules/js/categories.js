@@ -133,6 +133,8 @@ function subCatListCallback(status, gcList)
 			if ((gcList["category"] != null|| gcList["category"] != undefined ) && gcList["category"].length > 0)
 			{
 				frmSubCat.title=scatName;
+				if(kony.os.deviceInfo().name=="WindowsPhone")
+					hbxWinTtl.lblSubCatTtl.text =scatName;
 				for(var i=0;i<gcList["category"].length;i++)
 				{
 					tmp.push({
@@ -166,7 +168,9 @@ function subCatListCallback(status, gcList)
 				}
 				frmSubCat.lblState.setFocus(true);*/	
 				if(kony.application.getCurrentForm().id != "frmSubCat")			
-					frmSubCat.show();  
+					frmSubCat.show(); 
+					 
+				previousForm = "frmSubCat";
 				kony.application.dismissLoadingScreen();            
 	          }
 	          else

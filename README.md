@@ -22,4 +22,6 @@ Steps to get the API key:
  * SPA Android
  * SPA iPhone
  * SPA BlackBerry 
+ * Windows Phone 7.5
+ * Windows Phone 8
 

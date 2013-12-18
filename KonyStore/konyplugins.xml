@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <plugins>
-    <pluginInfo plugin-name="Kony Studio" plugin-id="com.pat.tool.keditor.KEditorPlugin" version-no="5.5.0.GA_v201311292058"/>
-    <pluginInfo plugin-name="Third Party Jars Plug-in" version-no="5.5.0.GA_v201311292035"/>
-    <pluginInfo plugin-name="Soap UI Plugin" plugin-id="com.pat.soapui.SoapUIPlugin" version-no="5.5.0.GA_v201311292025"/>
-    <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.0.GA_v201311292040"/>
+    <pluginInfo plugin-name="Kony Studio" plugin-id="com.pat.tool.keditor.KEditorPlugin" version-no="5.5.39.QA_v201312161549"/>
+    <pluginInfo plugin-name="Third Party Jars Plug-in" version-no="5.5.10.QA_v201311271640"/>
+    <pluginInfo plugin-name="Soap UI Plugin" plugin-id="com.pat.soapui.SoapUIPlugin" version-no="5.5.5.QA_v201310211059"/>
+    <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.28.QA_v201312121304"/>
     <pluginInfo plugin-name="KonyHelp Plug-in" plugin-id="com.kony.help.Activator" version-no="5.5.0.GA_v201311292254"/>
     <pluginInfo plugin-name="Nativecodegen" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" version-no="5.5.0.GA_v201311292048"/>
-    <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.0.GA_v201311291938"/>
+    <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.0.beta2_v201309291420"/>
     <pluginInfo plugin-name="CloudMiddlewarePlugin" plugin-id="com.kony.cloudmiddleware.Activator" version-no="5.5.0.GA_v201311292311"/>
     <pluginInfo plugin-name="CloudThirdPartyPlugin" plugin-id="com.kony.cloudthirdparty.Activator" version-no="5.5.0.GA_v201311292311"/>
     <pluginInfo plugin-name="Visualizer Integration Plugin" plugin-id="com.viz.ide.VisualiserIDEPlugin" version-no="5.5.0.Beta1_v201311292344"/>

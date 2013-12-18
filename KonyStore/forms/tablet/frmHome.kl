@@ -553,6 +553,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -618,6 +619,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -711,6 +713,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>1</wm_orientation>
+        <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -729,6 +732,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         <winphone8_layout>Vertical</winphone8_layout>
         <winphone8_showformtitle>false</winphone8_showformtitle>
         <winphone8_backButton>false</winphone8_backButton>
+        <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
@@ -746,6 +750,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -775,6 +785,9 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -1477,6 +1490,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2112,6 +2126,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -2944,16 +2959,8 @@ kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -3582,6 +3589,7 @@ kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -3654,6 +3662,9 @@ kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
