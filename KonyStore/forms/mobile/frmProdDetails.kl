@@ -4058,7 +4058,7 @@
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                    <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
@@ -4705,7 +4705,7 @@
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                    <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="khBox">
@@ -6002,7 +6002,7 @@
                         <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                         <desktopweb_toolTip></desktopweb_toolTip>
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                        <winphone8_contentalign>middle-left</winphone8_contentalign>
+                        <winphone8_contentalign>top-left</winphone8_contentalign>
                         <bb10_contentalignment>0</bb10_contentalignment>
                     </children>
                     <children xsi:type="kLabel">
@@ -6648,7 +6648,7 @@
                         <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                         <desktopweb_toolTip></desktopweb_toolTip>
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                        <winphone8_contentalign>middle-left</winphone8_contentalign>
+                        <winphone8_contentalign>top-left</winphone8_contentalign>
                         <bb10_contentalignment>0</bb10_contentalignment>
                     </children>
                     <general_contextMenu>None</general_contextMenu>
@@ -7303,7 +7303,7 @@
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                    <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <desktopweb_onRightClick>
@@ -8707,7 +8707,7 @@
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <children xsi:type="kLabel">
@@ -9353,7 +9353,7 @@
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <children xsi:type="kLabel">
@@ -9999,7 +9999,7 @@
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <children xsi:type="khBox">
@@ -14627,7 +14627,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                    <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="khBox">
@@ -17146,8 +17146,8 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     <winmobile>
                         <left>3</left>
                         <right>3</right>
-                        <top>5</top>
-                        <bottom>3</bottom>
+                        <top>10</top>
+                        <bottom>10</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -17162,8 +17162,8 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     <winphone8>
                         <left>3</left>
                         <right>3</right>
-                        <top>5</top>
-                        <bottom>3</bottom>
+                        <top>10</top>
+                        <bottom>10</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -17299,7 +17299,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <general_contextMenu>None</general_contextMenu>

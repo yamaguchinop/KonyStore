@@ -2052,7 +2052,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <desktopweb_toolTip></desktopweb_toolTip>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-            <winphone8_contentalign>middle-left</winphone8_contentalign>
+            <winphone8_contentalign>top-left</winphone8_contentalign>
             <bb10_contentalignment>0</bb10_contentalignment>
         </children>
         <children xsi:type="kLabel">
@@ -2698,7 +2698,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <desktopweb_toolTip></desktopweb_toolTip>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-            <winphone8_contentalign>middle-left</winphone8_contentalign>
+            <winphone8_contentalign>top-left</winphone8_contentalign>
             <bb10_contentalignment>0</bb10_contentalignment>
         </children>
         <children xsi:type="kTextBox2">
@@ -3220,7 +3220,7 @@
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>true</winmobile_override>
+                <winmobile_override>false</winmobile_override>
                 <winphone8>
                     <left>2</left>
                     <right>2</right>
@@ -3228,7 +3228,7 @@
                     <bottom>1</bottom>
                     <unit>%</unit>
                 </winphone8>
-                <winphone8_override>true</winphone8_override>
+                <winphone8_override>false</winphone8_override>
                 <xhtmlAdvBB>
                     <left>1</left>
                     <right>1</right>
@@ -4194,7 +4194,7 @@
             <showProgressIndicator>true</showProgressIndicator>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_displaytext>true</winphone8_displaytext>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>top-center</winphone8_contentalign>
             <bb10_contentalignment>1</bb10_contentalignment>
             <bb10displaytext>true</bb10displaytext>
         </children>
