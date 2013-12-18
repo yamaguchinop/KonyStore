@@ -485,6 +485,24 @@
         <headerId>hdrLogo</headerId>
         <footerId>None</footerId>
         <title></title>
+        <preShow_root>
+            <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>gApiKey="tu48pbdksamsjgvwvgmk34ne"</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </preShow_root>
         <postShow_root>
             <evtSequence>
                 <actionList xsi:type="eventFunctionAction">

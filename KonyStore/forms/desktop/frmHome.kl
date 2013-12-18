@@ -431,7 +431,7 @@
         <init>
             <evtSequence>
                 <actionList xsi:type="eventExpressionAction">
-                    <enabled>true</enabled>
+                    <enabled>false</enabled>
                     <name></name>
                     <type>5</type>
                     <expr></expr>

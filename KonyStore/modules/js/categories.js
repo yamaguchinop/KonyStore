@@ -39,7 +39,6 @@ function catListCallback(status, gcList)
 {	
 	if (status == 400)
 	{
-		
 		if (gcList["opstatus"] == 0) 
 		{
 			var tmp =[];
