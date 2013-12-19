@@ -16363,7 +16363,7 @@ if(scatName != frmProduct.segcatList.selectedItems[0].categoryName)
                             <desktop_web>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>4</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
@@ -16853,7 +16853,7 @@ if(scatName != frmProduct.segcatList.selectedItems[0].categoryName)
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>Welcome. Please create an account or Sign in.</SText>
+                        <SText>Please create an account or Sign in.</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>

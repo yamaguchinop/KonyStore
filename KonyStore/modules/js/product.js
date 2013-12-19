@@ -133,7 +133,7 @@ function showProductDetails()
 	switch(flag1)
 	{
 		case 0:frmProdDetails.imgReview.setVisibility(false);	
-				break;		
+				break;	
 		case 1:frmProdDetails.imgReview.src="stars1.png";
 				break;
 		case 2:frmProdDetails.imgReview.src="stars2.png";
@@ -152,12 +152,14 @@ function showProductDetails()
 	if(flag!=null && flag!="")
 	{
 		showReviews();
-		frmProdDetails.imgArrow.setVisibility(true);
+		if(channel!="desktopweb")
+			frmProdDetails.imgArrow.setVisibility(true);
 	}
 	else
 	{
 		frmProdDetails.totalReviews.text = "This product have no reviews.";
-		frmProdDetails.imgArrow.setVisibility(false);
+		if(channel!="desktopweb")
+			frmProdDetails.imgArrow.setVisibility(false);
 	}
 	frmProdDetails.show();
 	//frmProdDetails.menucontainer.data = frmProduct.menucontainer.data ;	

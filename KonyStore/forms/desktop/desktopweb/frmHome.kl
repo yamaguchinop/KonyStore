@@ -485,24 +485,6 @@
         <headerId>hdrLogo</headerId>
         <footerId>None</footerId>
         <title></title>
-        <preShow_root>
-            <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
-                        <entry>
-                            <key>js</key>
-                            <value>gApiKey="tu48pbdksamsjgvwvgmk34ne"</value>
-                        </entry>
-                    </exprMap>
-                </actionList>
-                <enabled>true</enabled>
-                <seqname></seqname>
-            </evtSequence>
-        </preShow_root>
         <postShow_root>
             <evtSequence>
                 <actionList xsi:type="eventFunctionAction">
@@ -537,6 +519,18 @@
         </postShow_root>
         <init>
             <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>channel="desktopweb"</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
                 <enabled>false</enabled>
                 <seqname></seqname>
             </evtSequence>
@@ -11711,7 +11705,7 @@
                             <desktop_web>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>4</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
@@ -12201,7 +12195,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>Welcome. Please create an account or Sign in.</SText>
+                        <SText>Please create an account or Sign in.</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>

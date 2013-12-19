@@ -47,7 +47,8 @@ function catListCallback(status, gcList)
 			{
 				for(var i=0;i<gcList["category"].length;i++)
 				{
-					/* for desktopweb 
+					if(channel=="desktopweb") 
+					{
 						childData.push({
 					            template: hbxDetails,
 					            "lblDetails": {
@@ -55,16 +56,17 @@ function catListCallback(status, gcList)
 					                "skin": "lblWhiteMenu"
 	           					}
 	           					});
-					*/
-					
-					tmp.push({
-						"categoryName":gcList["category"][i]["name"],
-						"categoryID":gcList["category"][i]["id"]
-							});
-				
-									
+	           		}
+					else
+					{
+						tmp.push({
+							"categoryName":gcList["category"][i]["name"],
+							"categoryID":gcList["category"][i]["id"]
+								});
+					}
 				}	
-				/* desktopweb
+				if(channel=="desktopweb") 
+				{
 					 var menudata = {
 							        template: hbxProduct,
 							        "lblProduct": {
@@ -73,11 +75,15 @@ function catListCallback(status, gcList)
 							        },
 							        children: childData
 								  };
-					    frmHome.menucontainer.setDataAt(menudata,0);
-					    resulttable=gcList["category"];
-				*/
-				 frmHome.segcatList.setData(tmp);
-				 kony.application.dismissLoadingScreen();   
+				    frmHome.menucontainer.setDataAt(menudata,0);
+				    resulttable=gcList["category"];
+				    kony.application.dismissLoadingScreen(); 
+				}
+				else
+				{
+					 frmHome.segcatList.setData(tmp);
+					 kony.application.dismissLoadingScreen();  
+				}
 	         }
 	     }
 	     else
@@ -86,9 +92,7 @@ function catListCallback(status, gcList)
 			kony.application.dismissLoadingScreen(); 
 			return;	                 
 	     }
-	                	
 	}
-	 								            					
 }
 
 /**
