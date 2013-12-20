@@ -24,4 +24,7 @@ Steps to get the API key:
  * SPA BlackBerry 
  * Windows Phone 7.5
  * Windows Phone 8
+ 
+ **Desktop** 
+ * DesktopWeb
 

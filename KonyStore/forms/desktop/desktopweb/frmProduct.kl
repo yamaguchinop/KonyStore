@@ -7305,7 +7305,7 @@ if(scatName != frmProduct.segcatList.selectedItems[0].categoryName)
                     <desktop_web>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>1</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </desktop_web>
