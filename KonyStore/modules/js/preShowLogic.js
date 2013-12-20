@@ -56,14 +56,12 @@ function preShowProdDetails(){
 	if( frmProdDetails.lblDesc.text == undefined)
 	frmProdDetails.lblDesc.text = "";
 }
-
-/**
-****************************************************************
+/*
 *	Name    : preShowProdDetailsIpad
 *	Author  : Kony Solutions
 *	Purpose : This function is preshow for product details to handle the form pre show logic for Ipad.
 ****************************************************************
-*/
+
 function preShowProdDetailsIpad(){
 	// For windows8 	frmProdDetails.title="Kony BestBuy";
 	hbxSearch.setVisibility(false);
@@ -76,5 +74,5 @@ function preShowProdDetailsIpad(){
 	if( frmProdDetails.lblDesc.text == undefined)
 	frmProdDetails.lblDesc.text = "";	
 }
-
+*/
 

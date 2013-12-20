@@ -110,13 +110,13 @@ function getSubCatList()
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallback);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
-
+/*
 function getSubCatList_ipad()
 {
 	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: gApiKey };
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallbackIpad);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-}
+}*/
 
 /**
 ****************************************************************
@@ -196,7 +196,7 @@ function subCatListCallback(status, gcList)
 	 }
 	 								            					
 }	
-
+/*
 function subCatListCallbackIpad(status, gcList)
 {	
 	
@@ -212,7 +212,7 @@ function subCatListCallbackIpad(status, gcList)
 					}	
 					frmSubCat.segcatList.setData(tmp);
 					
-					/*if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
+					if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
 						{
 							frmSubCat.lblSubCat.text = scatName;
 							frmSubCat.lblSubCat.skin = "lblBlue";
@@ -226,7 +226,7 @@ function subCatListCallbackIpad(status, gcList)
 							frmSubCat.lblSubCat2.setVisibility(true);
 						}
 				
-					frmSubCat.lblState.setFocus(true);*/
+					frmSubCat.lblState.setFocus(true);
 					frmSubCat.show();  
 					kony.application.dismissLoadingScreen();            
 	          }
@@ -247,5 +247,5 @@ function subCatListCallbackIpad(status, gcList)
 	                	
 	 }
 	 								            					
-}      
+}  */    
                 
