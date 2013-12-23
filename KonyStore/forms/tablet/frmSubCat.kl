@@ -683,7 +683,7 @@
             <skinID>Skin Defaults</skinID>
             <visible>true</visible>
         </win8TitleBarData>
-        <android_orientation>2</android_orientation>
+        <android_orientation>0</android_orientation>
         <android_transition_effect>0</android_transition_effect>
         <android_isModal>false</android_isModal>
         <android_footerOverlap>false</android_footerOverlap>
@@ -723,7 +723,7 @@
         <symbian_resetFocus>false</symbian_resetFocus>
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
-            <background_image></background_image>
+            <background_image>blue_pixel.png</background_image>
             <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </androidTitleBarData>
@@ -1763,10 +1763,10 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
@@ -1781,18 +1781,18 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
                     <tablet_rc_android_override>false</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -2030,14 +2030,14 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </spaWinphone8>
                     <spaWinphone8_override>true</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -2048,18 +2048,18 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -2411,14 +2411,14 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                 </spaWinphone8>
                 <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>4</left>
+                    <right>4</right>
+                    <top>1</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -2429,18 +2429,18 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>10</left>
+                    <right>10</right>
+                    <top>3</top>
+                    <bottom>5</bottom>
+                    <unit>px</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>4</left>
+                    <right>4</right>
+                    <top>1</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
                 <tabspaWindows>
@@ -2684,8 +2684,8 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -2700,9 +2700,9 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -3061,14 +3061,14 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -3079,18 +3079,18 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>2</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -3328,14 +3328,14 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -3346,18 +3346,18 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>3</left>
+                        <right>3</right>
+                        <top>5</top>
+                        <bottom>5</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>

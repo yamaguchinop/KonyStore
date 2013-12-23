@@ -710,7 +710,7 @@ else
             <skinID>Skin Defaults</skinID>
             <visible>true</visible>
         </win8TitleBarData>
-        <android_orientation>2</android_orientation>
+        <android_orientation>0</android_orientation>
         <android_transition_effect>0</android_transition_effect>
         <android_isModal>false</android_isModal>
         <android_footerOverlap>false</android_footerOverlap>
@@ -750,7 +750,7 @@ else
         <symbian_resetFocus>false</symbian_resetFocus>
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
-            <background_image></background_image>
+            <background_image>blue_pixel.png</background_image>
             <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </androidTitleBarData>
@@ -987,14 +987,14 @@ else
                 </spaWinphone8>
                 <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
-                    <left>0</left>
+                    <left>3</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -1005,15 +1005,15 @@ else
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>0</left>
+                    <left>3</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
-                    <left>0</left>
+                    <left>3</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
@@ -1260,8 +1260,8 @@ else
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -1276,9 +1276,9 @@ else
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -1637,14 +1637,14 @@ else
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -1655,18 +1655,18 @@ else
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -1904,14 +1904,14 @@ else
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -1922,18 +1922,18 @@ else
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>6</left>
+                        <right>6</right>
+                        <top>16</top>
+                        <bottom>16</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -2293,14 +2293,14 @@ else
                 </spaWinphone8>
                 <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -2311,18 +2311,18 @@ else
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
                 <tabspaWindows>
@@ -2582,7 +2582,7 @@ else
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>false</tablet_rc_android_override>
                 <tabspaAndroid>
@@ -2943,14 +2943,14 @@ else
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -2961,18 +2961,18 @@ else
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -3210,14 +3210,14 @@ else
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -3228,18 +3228,18 @@ else
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>6</left>
+                        <right>6</right>
+                        <top>16</top>
+                        <bottom>16</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -3609,8 +3609,8 @@ else
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -3627,7 +3627,7 @@ else
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -3876,8 +3876,8 @@ else
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -3889,12 +3889,12 @@ else
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
                     <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <right>1</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -4440,10 +4440,10 @@ else
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
@@ -4458,18 +4458,18 @@ else
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </tabRCAndroid>
                     <tablet_rc_android_override>false</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -4707,14 +4707,14 @@ else
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>1</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>0</left>
@@ -4725,17 +4725,17 @@ else
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>1</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>1</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
@@ -5096,14 +5096,14 @@ else
                         </spaWinphone8>
                         <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>4</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </spaipad>
-                        <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spaipad_override>true</spaipad_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -5114,18 +5114,18 @@ else
                         </symbian>
                         <symbian_override>true</symbian_override>
                         <tabRCAndroid>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <left>1</left>
+                            <right>10</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>4</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </tabspaAndroid>
                         <tabspaWindows>
@@ -5369,8 +5369,8 @@ else
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaipad>
-                        <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spaipad_override>true</spaipad_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -5387,7 +5387,7 @@ else
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>0</left>
                             <right>0</right>
@@ -6007,8 +6007,8 @@ else
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>0</left>
@@ -6025,7 +6025,7 @@ else
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
                                 <left>0</left>
                                 <right>0</right>
@@ -6437,14 +6437,14 @@ else
                         </spaWinphone8>
                         <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </spaipad>
-                        <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spaipad_override>true</spaipad_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -6455,18 +6455,18 @@ else
                         </symbian>
                         <symbian_override>true</symbian_override>
                         <tabRCAndroid>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </tabspaAndroid>
                         <tabspaWindows>
@@ -6710,8 +6710,8 @@ else
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaipad>
-                        <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spaipad_override>true</spaipad_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -6726,9 +6726,9 @@ else
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>%</unit>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>0</left>
                             <right>0</right>
@@ -7067,13 +7067,13 @@ else
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
@@ -7084,18 +7084,18 @@ else
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
+                                <unit>px</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
                                 <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -7333,14 +7333,14 @@ else
                             </spaWinphone8>
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
@@ -7351,18 +7351,18 @@ else
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
+                                <unit>px</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -7713,13 +7713,13 @@ else
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
@@ -7730,18 +7730,18 @@ else
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>3</bottom>
+                                <unit>px</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
                                 <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -7979,14 +7979,14 @@ else
                             </spaWinphone8>
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
@@ -7997,18 +7997,18 @@ else
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>3</top>
+                                <bottom>3</bottom>
+                                <unit>px</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -8360,13 +8360,13 @@ else
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
@@ -8377,18 +8377,18 @@ else
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>3</bottom>
+                                <unit>px</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
                                 <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -8626,14 +8626,14 @@ else
                             </spaWinphone8>
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>false</spaipad_override>
-                            <spatablet_android_override>false</spatablet_android_override>
+                            <spaipad_override>true</spaipad_override>
+                            <spatablet_android_override>true</spatablet_android_override>
                             <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
@@ -8644,18 +8644,18 @@ else
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>3</top>
+                                <bottom>3</bottom>
+                                <unit>px</unit>
                             </tabRCAndroid>
-                            <tablet_rc_android_override>false</tablet_rc_android_override>
+                            <tablet_rc_android_override>true</tablet_rc_android_override>
                             <tabspaAndroid>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -8892,7 +8892,7 @@ else
                         <mixed_ipad>true</mixed_ipad>
                         <mixed_iphone>true</mixed_iphone>
                         <rc_android>true</rc_android>
-                        <rc_android_tab>true</rc_android_tab>
+                        <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>false</rc_blackberry>
                         <rc_blackberry10>false</rc_blackberry10>
                         <rc_ipad>false</rc_ipad>
@@ -8904,9 +8904,9 @@ else
                         <rc_winmobile>false</rc_winmobile>
                         <rc_winmobile6x>false</rc_winmobile6x>
                         <rc_winphone8>false</rc_winphone8>
-                        <tabspa_ipad>true</tabspa_ipad>
+                        <tabspa_ipad>false</tabspa_ipad>
                         <tabspa_windows>true</tabspa_windows>
-                        <tabspaspa_android>true</tabspaspa_android>
+                        <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>false</tc_spaandroid>
                         <tc_spabb>false</tc_spabb>
                         <tc_spabb_nth>true</tc_spabb_nth>
@@ -9029,8 +9029,8 @@ else
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaipad>
-                        <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spaipad_override>true</spaipad_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -9047,7 +9047,7 @@ else
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>0</left>
                             <right>0</right>

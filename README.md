@@ -26,7 +26,10 @@ Steps to get the API key:
  * Windows Phone 8
  
 **Tablet** 
+ * Android
  * iPad
+ * SPA iPad
+ * SPA Android
  
 **Desktop** 
  * DesktopWeb
