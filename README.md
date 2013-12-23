@@ -25,6 +25,9 @@ Steps to get the API key:
  * Windows Phone 7.5
  * Windows Phone 8
  
+**Tablet** 
+ * iPad
+ 
 **Desktop** 
  * DesktopWeb
 
