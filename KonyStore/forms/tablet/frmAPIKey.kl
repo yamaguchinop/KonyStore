@@ -3895,13 +3895,13 @@
                 </desktop_web>
                 <desktop_web_override>true</desktop_web_override>
                 <ipad>
-                    <left>6</left>
-                    <right>6</right>
-                    <top>10</top>
-                    <bottom>10</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </ipad>
-                <ipad_override>false</ipad_override>
+                <ipad_override>true</ipad_override>
                 <iphonerc>
                     <left>6</left>
                     <right>6</right>
@@ -3990,7 +3990,7 @@
                     <bottom>5</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>6</left>
                     <right>6</right>

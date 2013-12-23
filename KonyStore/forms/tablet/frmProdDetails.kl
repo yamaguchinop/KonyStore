@@ -6784,13 +6784,13 @@
                         </desktop_web>
                         <desktop_web_override>false</desktop_web_override>
                         <ipad>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
+                            <left>3</left>
+                            <right>3</right>
+                            <top>2</top>
                             <bottom>1</bottom>
-                            <unit>px</unit>
+                            <unit>%</unit>
                         </ipad>
-                        <ipad_override>false</ipad_override>
+                        <ipad_override>true</ipad_override>
                         <iphonerc>
                             <left>1</left>
                             <right>1</right>
@@ -10786,7 +10786,7 @@
                         </desktop_web>
                         <desktop_web_override>false</desktop_web_override>
                         <ipad>
-                            <left>1</left>
+                            <left>2</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -17049,8 +17049,8 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     <ipad>
                         <left>3</left>
                         <right>3</right>
-                        <top>5</top>
-                        <bottom>3</bottom>
+                        <top>16</top>
+                        <bottom>16</bottom>
                         <unit>px</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>

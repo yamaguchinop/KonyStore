@@ -2033,8 +2033,8 @@ previousForm="frmHome";</value>
                     <ipad>
                         <left>1</left>
                         <right>1</right>
-                        <top>3</top>
-                        <bottom>3</bottom>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
@@ -2089,13 +2089,13 @@ previousForm="frmHome";</value>
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -2120,11 +2120,11 @@ previousForm="frmHome";</value>
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>3</left>
-                        <right>3</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
-                        <unit>px</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
+                        <unit>%</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
                     <winmobile>

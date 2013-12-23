@@ -1866,8 +1866,8 @@ else
                     <ipad>
                         <left>6</left>
                         <right>6</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
+                        <top>16</top>
+                        <bottom>16</bottom>
                         <unit>px</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
@@ -2348,7 +2348,7 @@ else
                     <bottom>0</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>3</left>
                     <right>3</right>
@@ -3172,11 +3172,11 @@ else
                     <ipad>
                         <left>6</left>
                         <right>6</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
+                        <top>16</top>
+                        <bottom>16</bottom>
                         <unit>px</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>6</left>
                         <right>6</right>
