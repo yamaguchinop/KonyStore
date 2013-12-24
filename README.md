@@ -30,6 +30,7 @@ Steps to get the API key:
  * iPad
  * SPA iPad
  * SPA Android
+ * Windows 8
  
 **Desktop** 
  * DesktopWeb
