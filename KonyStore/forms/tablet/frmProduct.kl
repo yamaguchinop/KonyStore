@@ -658,33 +658,6 @@
         <win_autofocus>true</win_autofocus>
         <wm_orientation>0</wm_orientation>
         <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
-        <wm_onDevBack_root>
-            <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
-                        <entry>
-                            <key>js</key>
-                            <value>
-if(previousForm == "frmSubCat")
-{
-	hbxWinTtl.lblSubCatTtl.text =scatNameWindows;
-	frmSubCat.show();
-}
-else
-{
-	frmHome.show();
-}</value>
-                        </entry>
-                    </exprMap>
-                </actionList>
-                <enabled>true</enabled>
-                <seqname></seqname>
-            </evtSequence>
-        </wm_onDevBack_root>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -707,7 +680,7 @@ else
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>0</android_orientation>
@@ -1036,11 +1009,11 @@ else
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>0</left>
+                    <left>3</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
                 <winmobile>
@@ -1953,10 +1926,10 @@ else
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>3</left>
-                        <right>3</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
+                        <left>6</left>
+                        <right>6</right>
+                        <top>16</top>
+                        <bottom>16</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -2342,13 +2315,13 @@ else
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>4</top>
+                    <bottom>4</bottom>
+                    <unit>%</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>3</left>
                     <right>3</right>
@@ -2615,7 +2588,7 @@ else
                     <bottom>0</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -3259,10 +3232,10 @@ else
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>3</left>
-                        <right>3</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
+                        <left>6</left>
+                        <right>6</right>
+                        <top>16</top>
+                        <bottom>16</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -3920,7 +3893,7 @@ else
                 <type>1</type>
                 <windows8>
                     <left>0</left>
-                    <right>0</right>
+                    <right>1</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
@@ -4489,13 +4462,13 @@ else
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>1</left>
                         <right>1</right>
@@ -4756,11 +4729,11 @@ else
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>1</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
                     <winmobile>
@@ -5145,10 +5118,10 @@ else
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>10</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -5416,7 +5389,7 @@ else
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>px</unit>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -5789,7 +5762,7 @@ else
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </windows8>
-                            <windows8_override>true</windows8_override>
+                            <windows8_override>false</windows8_override>
                             <winmobile>
                                 <left>0</left>
                                 <right>0</right>
@@ -6486,10 +6459,10 @@ else
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -7384,8 +7357,8 @@ else
                             <windows8>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
@@ -7764,7 +7737,7 @@ else
                                 <left>1</left>
                                 <right>1</right>
                                 <top>1</top>
-                                <bottom>1</bottom>
+                                <bottom>3</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
@@ -8030,8 +8003,8 @@ else
                             <windows8>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>3</top>
+                                <bottom>3</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
@@ -8411,7 +8384,7 @@ else
                                 <left>1</left>
                                 <right>1</right>
                                 <top>1</top>
-                                <bottom>1</bottom>
+                                <bottom>3</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
@@ -8677,8 +8650,8 @@ else
                             <windows8>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>3</top>
+                                <bottom>3</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
@@ -8900,7 +8873,7 @@ else
                         <rc_j2me>false</rc_j2me>
                         <rc_palm>false</rc_palm>
                         <rc_symbian>false</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>false</rc_winmobile>
                         <rc_winmobile6x>false</rc_winmobile6x>
                         <rc_winphone8>false</rc_winphone8>
@@ -9563,6 +9536,7 @@ else
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <overrideProperties>KForm.pb_titleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

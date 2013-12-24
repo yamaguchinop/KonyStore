@@ -110,13 +110,7 @@ function getSubCatList()
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallback);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
-/*
-function getSubCatList_ipad()
-{
-	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: gApiKey };
-	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallbackIpad);
-	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-}*/
+
 
 /**
 ****************************************************************

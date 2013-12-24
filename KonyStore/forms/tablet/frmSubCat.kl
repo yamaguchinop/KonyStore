@@ -680,7 +680,7 @@
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>0</android_orientation>
@@ -1019,7 +1019,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -1286,7 +1286,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -1818,7 +1818,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                         <bottom>1</bottom>
                         <unit>px</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>1</left>
                         <right>1</right>
@@ -2079,11 +2079,11 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>3</left>
-                        <right>3</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
-                        <unit>px</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
+                        <unit>%</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
                     <winmobile>
@@ -2460,10 +2460,10 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>10</left>
+                    <right>10</right>
+                    <top>3</top>
+                    <bottom>5</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -3110,7 +3110,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
+                        <left>2</left>
                         <right>1</right>
                         <top>1</top>
                         <bottom>1</bottom>
@@ -3379,8 +3379,8 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                     <windows8>
                         <left>3</left>
                         <right>3</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
+                        <top>5</top>
+                        <bottom>5</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -3557,6 +3557,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <overrideProperties>KForm.pb_titleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>
