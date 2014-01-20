@@ -8013,6 +8013,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>2</iphone_executeonClosure>
@@ -12602,9 +12605,15 @@
                             <entry>
                                 <key>js</key>
                                 <value>if(frmProdDetails.segReviews.isVisible)
+{
+frmProdDetails.imgArrow.src = "u_arrow_grey.png"
 frmProdDetails.segReviews.setVisibility(false);
+}
 else
-frmProdDetails.segReviews.setVisibility(true);</value>
+{
+frmProdDetails.imgArrow.src = "d_arrow_grey.png"
+frmProdDetails.segReviews.setVisibility(true);
+}</value>
                             </entry>
                         </exprMap>
                     </actionList>
@@ -13268,7 +13277,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>arrow.png</SText>
+                <SText>d_arrow_grey.png</SText>
                 <overridePerferred>
                     <width>false</width>
                     <height>false</height>

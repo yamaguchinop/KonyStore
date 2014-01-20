@@ -8013,6 +8013,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>2</iphone_executeonClosure>
@@ -12058,11 +12061,11 @@
                 <android>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
+                    <top>10</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>0</left>
                     <right>0</right>
@@ -12602,9 +12605,15 @@
                             <entry>
                                 <key>js</key>
                                 <value>if(frmProdDetails.segReviews.isVisible)
+{
+frmProdDetails.imgArrow.src = "u_arrow_grey.png"
 frmProdDetails.segReviews.setVisibility(false);
+}
 else
-frmProdDetails.segReviews.setVisibility(true);</value>
+{
+frmProdDetails.imgArrow.src = "d_arrow_grey.png"
+frmProdDetails.segReviews.setVisibility(true);
+}</value>
                             </entry>
                         </exprMap>
                     </actionList>
@@ -12666,16 +12675,16 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                 </gridMetaData>
                 <widgetID>p2kwiet10418868691774</widgetID>
                 <location>
-                    <x>422</x>
+                    <x>410</x>
                     <y>1</y>
                 </location>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <size>
-                    <width>25</width>
+                    <width>37</width>
                     <height>35</height>
                 </size>
                 <sizePercent>
-                    <width>6</width>
+                    <width>8</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
@@ -13268,7 +13277,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>arrow.png</SText>
+                <SText>d_arrow_grey.png</SText>
                 <overridePerferred>
                     <width>false</width>
                     <height>false</height>
@@ -13370,11 +13379,11 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>420</width>
+                    <width>408</width>
                     <height>35</height>
                 </size>
                 <sizePercent>
-                    <width>94</width>
+                    <width>92</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
@@ -14004,7 +14013,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                         <y>1</y>
                     </location>
                     <size>
-                        <width>418</width>
+                        <width>406</width>
                         <height>11</height>
                     </size>
                     <sizePercent>
@@ -14651,7 +14660,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                         <y>13</y>
                     </location>
                     <size>
-                        <width>418</width>
+                        <width>406</width>
                         <height>21</height>
                     </size>
                     <sizePercent>
@@ -15301,7 +15310,7 @@ frmProdDetails.segReviews.setVisibility(true);</value>
                         </location>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <size>
-                            <width>416</width>
+                            <width>404</width>
                             <height>19</height>
                         </size>
                         <sizePercent>

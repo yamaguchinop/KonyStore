@@ -211,7 +211,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.39.QA_v201312181548_r1"/>
+    <attributes name="currentgaversion" value="5.5.40.QA_v201401061526"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -229,6 +229,7 @@
     <attributes name="ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="access_sms_mms" value="false"/>
     <attributes name="certs_key_store_type" value="JKS"/>
+    <attributes name="wp8enforceMaxMemory" value="false"/>
     <attributes name="urlschemanameorder" value=""/>
     <attributes name="desktopwebwidthoption" value="Percentage"/>
     <attributes name="win8packagelogokey" value=""/>
@@ -252,6 +253,7 @@
     <attributes name="RECORD_AUDIO" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_WRITE" value="false"/>
     <attributes name="ipadportraitmodekey" value="true"/>
+    <attributes name="wp8doNotInstalllowerMemory" value="false"/>
     <attributes name="cloud_http_redirect" value="false"/>
     <attributes name="appnamekey" value="KonyStore"/>
     <attributes name="log_level" value="ERROR"/>
@@ -277,8 +279,8 @@
     <attributes name="DISABLE_KEYGUARD" value="false"/>
     <attributes name="pasteboardtype" value="systemlevel"/>
     <attributes name="tcandroid400basefontsize" value="14"/>
-    <attributes name="svcusedefault" value="true"/>
     <attributes name="androidscreenresizeable" value="false"/>
+    <attributes name="svcusedefault" value="true"/>
     <attributes name="tcandroid440basefontsize" value="15"/>
     <attributes name="CHANGE_NETWORK_STATE" value="false"/>
     <attributes name="desktopwebaligenmentoption" value="left"/>
@@ -326,7 +328,7 @@
     <attributes name="androidInstallLocnPref" value="false"/>
     <attributes name="tcpalm240basefontsize" value="10"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
-    <attributes name="cloud_url" value="http://127.0.0.1:8080"/>
+    <attributes name="cloud_url" value="http://10.10.4.135:8080"/>
     <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
@@ -336,7 +338,7 @@
     <attributes name="sessionmanager" value="Kony Session Manager"/>
     <attributes name="appversioncode" value="1"/>
     <attributes name="RECEIVE_WAP_PUSH" value="false"/>
-    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080,http://10.10.4.192:8080"/>
+    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080,http://10.10.4.135:8080"/>
     <attributes name="customgcmbroadcastreceiver" value=""/>
     <attributes name="WP8_ID_CAP_REMOVABLE_STORAGE" value="true"/>
     <attributes name="MODIFY_PHONE_STATE" value="false"/>
@@ -348,7 +350,7 @@
     <attributes name="wp8cyclesmallkey" value=""/>
     <attributes name="bb10description" value=""/>
     <attributes name="ACCESS_LOCATION_EXTRA_COMMANDS" value="false"/>
-    <attributes name="appaddrkey" value="http://127.0.0.1:8080"/>
+    <attributes name="appaddrkey" value="http://10.10.4.58:8080"/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="WRITE_CONTACTS" value="false"/>
     <attributes name="VIBRATE" value="false"/>
@@ -387,7 +389,7 @@
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="tcnth320basefontsize" value="15"/>
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
-    <attributes name="svcaddrkey" value="http://127.0.0.1:8080"/>
+    <attributes name="svcaddrkey" value="http://10.10.4.58:8080"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
     <attributes name="spaandroidtab1024basefontsize" value="16"/>

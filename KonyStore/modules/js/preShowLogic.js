@@ -1,3 +1,18 @@
+/*****************************************************************
+*	Name    : createAppMenu
+*	Author  : Kony 
+*	Purpose : To create app menu programatically.
+******************************************************************/
+
+function createAppMenu() 
+{
+	kony.print("entered app menu ********************************************************************************  ")
+	var homeMItem = ["homeId", "Home", "home_ico_f.png", function homeMenuCallBack(){frmHome.show()}];
+	var appMenu= [homeMItem];
+    kony.application.createAppMenu("ksAppMenu", appMenu, "appMenu", "");
+	kony.application.setCurrentAppMenu("ksAppMenu");
+    kony.print("Exited app menu ********************************************************************************  ")
+}
 
 /**
 ****************************************************************
