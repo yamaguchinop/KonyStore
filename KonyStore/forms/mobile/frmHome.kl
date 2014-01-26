@@ -438,10 +438,11 @@
                     <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>if(kony.os.deviceInfo().name == "WindowsPhone")
+                            <value>if(kony.os.deviceInfo().name == "WindowsPhone"||kony.os.deviceInfo().name == "thinclient")
 {
 	hbxWinTtl.lblSubCatTtl.text = "Kony Store"
-}</value>
+}
+</value>
                         </entry>
                     </exprMap>
                 </actionList>

@@ -5020,7 +5020,7 @@ else
                         <android_override>false</android_override>
                         <bb>
                             <left>1</left>
-                            <right>4</right>
+                            <right>1</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>%</unit>
@@ -5659,7 +5659,7 @@ else
                             <bb>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>4</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
@@ -5671,7 +5671,7 @@ else
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
                                 <left>0</left>
@@ -5924,8 +5924,8 @@ else
                             </android>
                             <android_override>false</android_override>
                             <bb>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>1</left>
+                                <right>1</right>
                                 <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
@@ -6360,7 +6360,7 @@ else
                         </android>
                         <android_override>false</android_override>
                         <bb>
-                            <left>1</left>
+                            <left>5</left>
                             <right>1</right>
                             <top>1</top>
                             <bottom>1</bottom>

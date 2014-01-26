@@ -830,12 +830,12 @@
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
-                <tc_spaandroid>false</tc_spaandroid>
-                <tc_spabb>false</tc_spabb>
-                <tc_spabb_nth>false</tc_spabb_nth>
-                <tc_spaiphone>false</tc_spaiphone>
-                <tc_spawindows>false</tc_spawindows>
-                <tc_spawinphone8>false</tc_spawinphone8>
+                <tc_spaandroid>true</tc_spaandroid>
+                <tc_spabb>true</tc_spabb>
+                <tc_spabb_nth>true</tc_spabb_nth>
+                <tc_spaiphone>true</tc_spaiphone>
+                <tc_spawindows>true</tc_spawindows>
+                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>false</tc_xhtml>
                 <tc_xhtml_advandroid1>false</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>false</tc_xhtml_advbb>

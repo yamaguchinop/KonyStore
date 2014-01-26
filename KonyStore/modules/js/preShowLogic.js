@@ -22,7 +22,10 @@ function createAppMenu()
 ****************************************************************
 */
 function preShowProduct(){
-	
+	if(kony.os.deviceInfo().name == "thinclient")
+	{
+		hbxWinTtl.lblSubCatTtl.text = "Products";
+	}
 	hbxSearch.setVisibility(false);
 	if(kony.os.deviceInfo().name =="blackberry")
 	{
@@ -41,6 +44,10 @@ function preShowSubCat()
 {
 	
 	hbxSearch.setVisibility(true);
+	if(kony.os.deviceInfo().name == "thinclient")
+	{
+		hbxWinTtl.lblSubCatTtl.text = "Product Category";
+	}
 	if(kony.os.deviceInfo().name =="blackberry")
 	{
 		hbxSearch.txtbxSrch.setVisibility(true);
@@ -57,6 +64,12 @@ function preShowSubCat()
 ****************************************************************
 */
 function preShowProdDetails(){
+
+	if(kony.os.deviceInfo().name == "thinclient")
+	{
+		hbxWinTtl.lblSubCatTtl.text = "Product Details";
+	}
+
 	
 	hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
 	if(kony.os.deviceInfo().name =="blackberry")
