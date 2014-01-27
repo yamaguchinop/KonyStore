@@ -11,9 +11,6 @@
         <component type="textbox2" id="txtbxSrch" displayname="TextBox2"/>
     </container>
     <container type="dialog" id="ftrLogo" displayname="Popup"/>
-    <container type="form" id="frmAPIKey" displayname="Form">
-        <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
-    </container>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmProdDetails" displayname="Form"/>
     <container type="form" id="frmProduct" displayname="Form"/>
@@ -31,6 +28,9 @@
     <container type="form" id="frmProduct" displayname="Form"/>
     <container type="form" id="frmSubCat" displayname="Form"/>
     <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <container type="form" id="frmAPIKey" displayname="Form">
+        <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
+    </container>
     <globalsequences/>
     <skins/>
 </application>

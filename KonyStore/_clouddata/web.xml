@@ -221,7 +221,7 @@
         </init-param>
 		<init-param>
             <param-name>spa</param-name>
-            <param-value>spaandroidtablet</param-value>
+            <param-value>spablackberry</param-value>
         </init-param>            
     </servlet>
  	<servlet-mapping>
@@ -307,7 +307,7 @@
 		<init-param>
 			<description>spa and desktopweb build information</description>
 			<param-name>cloud-channels</param-name>
-			<param-value>spaandroidtablet</param-value>
+			<param-value>spablackberry</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
