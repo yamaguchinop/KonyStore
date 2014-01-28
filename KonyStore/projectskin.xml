@@ -7,11 +7,11 @@
     <skin name="himgstrip2_skin" value="hStrip2Normal"/>
     <skin name="datagrid_alternate_skin" value="dgRow"/>
     <skin name="textfield_skin" value="tbxNormal"/>
-    <skin name="row_skin_focus" value="sknHboxKonyThemeTransparant"/>
     <skin name="datagrid_header_skin" value="dgHead"/>
+    <skin name="row_skin_focus" value="sknHboxKonyThemeTransparant"/>
     <skin name="segment2_widget_skin" value="sknSegKonyThemeRowNormal"/>
-    <skin name="camera_skin" value="sknCamKonyThemeNormal"/>
     <skin name="segment_sec_skin_focus" value="segHeader"/>
+    <skin name="camera_skin" value="sknCamKonyThemeNormal"/>
     <skin name="label_skin" value="sknLblKonyThemeNormal"/>
     <skin name="calendar_skin" value="sknCalKonyThemeNormal"/>
     <skin name="bb_slider_left_skin_key" value="sliderLeft"/>
@@ -23,30 +23,30 @@
     <skin name="row_skin" value="sknHboxKonyThemeTransparant"/>
     <skin name="himgstrip2_skin_focus" value="hStrip2Focus"/>
     <skin name="phone_skin_focus" value="sknPhoneKonyThemeFocus"/>
-    <skin name="imagegallery2_skin_focus" value="gal2Focus"/>
     <skin name="listbox_skin_focus" value="sknListboxKonyThemeFocus"/>
+    <skin name="imagegallery2_skin_focus" value="gal2Focus"/>
     <skin name="himgstrip_skin" value="hStripNormal"/>
-    <skin name="bb_form_title_skin" value="titleBar"/>
     <skin name="android_form_title_skin" value="titleBar"/>
+    <skin name="bb_form_title_skin" value="titleBar"/>
     <skin name="phone_skin" value="sknPhoneKonyThemeNormal"/>
     <skin name="datagrid_row_skin_focus" value="dgFocus"/>
-    <skin name="calendar_skin_focus" value="sknCalKonyThemeFocus"/>
     <skin name="textarea2_skin_focus" value="sknTxtKonyThemeFocus"/>
+    <skin name="calendar_skin_focus" value="sknCalKonyThemeFocus"/>
     <skin name="iphone_slider_right_skin" value="sknSliderKonyThemeRight"/>
     <skin name="imagegallery_skin_focus" value="galFocus"/>
     <skin name="textarea_skin_focus" value="txtFocus"/>
-    <skin name="tabpane_inactive_skin" value="sknTabKonyThemeInactive"/>
     <skin name="listbox_skin" value="sknListboxKonyThemeNormal"/>
+    <skin name="tabpane_inactive_skin" value="sknTabKonyThemeInactive"/>
     <skin name="segment_skin_focus" value="segFocus"/>
     <skin name="datagrid_row_skin" value="dgRow"/>
     <skin name="segment2_row_skin" value="sknSegKonyThemeRowNormal"/>
     <skin name="combobox_skin_focus" value="sknCboxKonyThemeFocus"/>
     <skin name="combobox_skin" value="sknCboxKonyThemeNormal"/>
     <skin name="link_skin_focus" value="sknLnkKonyThemeFocus"/>
-    <skin name="segment2_row_focus_skin" value="sknSegKonyThemeRowFocus"/>
     <skin name="segment2_secheader_skin" value="seg2Header"/>
-    <skin name="android_slider_right_skin" value="sliderRight"/>
+    <skin name="segment2_row_focus_skin" value="sknSegKonyThemeRowFocus"/>
     <skin name="segment_skin" value="segNormal"/>
+    <skin name="android_slider_right_skin" value="sliderRight"/>
     <skin name="tabpane_active_focus_skin" value="tabFocus"/>
     <skin name="bb_slider_right_skin_key" value="sliderRight"/>
     <skin name="button_skin" value="sknBtnKonyThemeNormal"/>
