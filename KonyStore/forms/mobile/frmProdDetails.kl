@@ -2305,7 +2305,7 @@
                         <winmobile>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>8</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winmobile>
@@ -2321,7 +2321,7 @@
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>8</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
@@ -7150,7 +7150,7 @@
                         <winmobile>
                             <left>3</left>
                             <right>3</right>
-                            <top>3</top>
+                            <top>10</top>
                             <bottom>3</bottom>
                             <unit>px</unit>
                         </winmobile>
@@ -7166,7 +7166,7 @@
                         <winphone8>
                             <left>3</left>
                             <right>3</right>
-                            <top>3</top>
+                            <top>10</top>
                             <bottom>3</bottom>
                             <unit>px</unit>
                         </winphone8>

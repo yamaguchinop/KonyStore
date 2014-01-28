@@ -5796,7 +5796,7 @@ else
                             <winmobile>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>10</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </winmobile>
@@ -5808,15 +5808,15 @@ else
                                 <unit>%</unit>
                             </winmobile6x>
                             <winmobile6x_override>true</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>10</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </winphone8>
-                            <winphone8_override>false</winphone8_override>
+                            <winphone8_override>true</winphone8_override>
                             <xhtmlAdvBB>
                                 <left>0</left>
                                 <right>0</right>
@@ -6061,8 +6061,8 @@ else
                             </windows8>
                             <windows8_override>true</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>1</left>
+                                <right>2</right>
                                 <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
@@ -6077,8 +6077,8 @@ else
                             <winmobile6x_override>true</winmobile6x_override>
                             <winmobile_override>true</winmobile_override>
                             <winphone8>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>1</left>
+                                <right>2</right>
                                 <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>

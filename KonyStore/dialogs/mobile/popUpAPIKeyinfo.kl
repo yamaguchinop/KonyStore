@@ -304,7 +304,7 @@
                 <left>2</left>
                 <right>2</right>
                 <top>2</top>
-                <bottom>13</bottom>
+                <bottom>16</bottom>
                 <unit>%</unit>
             </winmobile>
             <winmobile6x>
@@ -320,7 +320,7 @@
                 <left>2</left>
                 <right>2</right>
                 <top>2</top>
-                <bottom>13</bottom>
+                <bottom>19</bottom>
                 <unit>%</unit>
             </winphone8>
             <winphone8_override>true</winphone8_override>
