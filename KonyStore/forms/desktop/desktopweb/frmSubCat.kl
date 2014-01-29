@@ -11466,7 +11466,7 @@
                         </desktop_kiosk>
                         <desktop_kiosk_override>false</desktop_kiosk_override>
                         <desktop_web>
-                            <left>8</left>
+                            <left>6</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -14316,13 +14316,13 @@
                 </desktop_kiosk>
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
-                    <left>0</left>
+                    <left>9</left>
                     <right>0</right>
                     <top>0</top>
-                    <bottom>0</bottom>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>false</desktop_web_override>
+                <desktop_web_override>true</desktop_web_override>
                 <ipad>
                     <left>0</left>
                     <right>0</right>
@@ -14962,13 +14962,13 @@
                 </desktop_kiosk>
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
-                    <left>0</left>
+                    <left>4</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>false</desktop_web_override>
+                <desktop_web_override>true</desktop_web_override>
                 <ipad>
                     <left>0</left>
                     <right>0</right>
@@ -15636,13 +15636,13 @@
                 </desktop_kiosk>
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
-                    <left>0</left>
+                    <left>8</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>false</desktop_web_override>
+                <desktop_web_override>true</desktop_web_override>
                 <ipad>
                     <left>0</left>
                     <right>0</right>

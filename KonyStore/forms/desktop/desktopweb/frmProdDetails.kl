@@ -12121,7 +12121,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         </desktop_kiosk>
                         <desktop_kiosk_override>false</desktop_kiosk_override>
                         <desktop_web>
-                            <left>12</left>
+                            <left>6</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>

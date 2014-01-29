@@ -4,7 +4,7 @@
     <container type="form" id="frmHome" displayname="Form">
         <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmSubCat" displayname="Form">
+    <container type="form" id="frmProdDetails" displayname="Form">
         <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
     </container>
     <container type="dialog" id="hdrLogo" displayname="Popup"/>
@@ -15,7 +15,6 @@
     <container type="form" id="frmProdDetails" displayname="Form"/>
     <container type="form" id="frmProduct" displayname="Form"/>
     <container type="form" id="frmProductSrch" displayname="Form"/>
-    <container type="form" id="frmSubCat" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form">
         <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
     </container>
@@ -31,10 +30,13 @@
     <container type="form" id="frmSubCat" displayname="Form">
         <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmProdDetails" displayname="Form">
+    <container type="form" id="frmSubCat" displayname="Form">
         <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
     </container>
     <container type="form" id="frmProduct" displayname="Form">
+        <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmSubCat" displayname="Form">
         <component type="textbox2" id="txtbxSrch1" displayname="TextBox2"/>
     </container>
     <globalsequences/>
