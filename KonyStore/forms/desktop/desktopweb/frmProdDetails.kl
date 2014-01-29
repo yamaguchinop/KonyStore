@@ -17398,7 +17398,7 @@ frmProdDetails.lblDesc.text = "";</value>
                             <width>false</width>
                             <height>false</height>
                         </overridePerferred>
-                        <contentAlign>4</contentAlign>
+                        <contentAlign>3</contentAlign>
                         <defaultImageText>error_loading.png</defaultImageText>
                         <animationText>imgloading.png</animationText>
                         <scale_mode>0</scale_mode>
@@ -18239,7 +18239,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -18500,13 +18500,13 @@ frmProdDetails.lblDesc.text = "";</value>
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>4</left>
-                                <right>4</right>
-                                <top>9</top>
-                                <bottom>9</bottom>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -18886,7 +18886,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -19153,7 +19153,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -19536,7 +19536,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </desktop_web>
-                                <desktop_web_override>false</desktop_web_override>
+                                <desktop_web_override>true</desktop_web_override>
                                 <ipad>
                                     <left>0</left>
                                     <right>0</right>
@@ -19797,13 +19797,13 @@ frmProdDetails.lblDesc.text = "";</value>
                                 </desktop_kiosk>
                                 <desktop_kiosk_override>false</desktop_kiosk_override>
                                 <desktop_web>
-                                    <left>4</left>
-                                    <right>4</right>
-                                    <top>9</top>
-                                    <bottom>9</bottom>
+                                    <left>1</left>
+                                    <right>1</right>
+                                    <top>1</top>
+                                    <bottom>1</bottom>
                                     <unit>%</unit>
                                 </desktop_web>
-                                <desktop_web_override>false</desktop_web_override>
+                                <desktop_web_override>true</desktop_web_override>
                                 <ipad>
                                     <left>0</left>
                                     <right>0</right>
@@ -20182,7 +20182,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </desktop_web>
-                                <desktop_web_override>false</desktop_web_override>
+                                <desktop_web_override>true</desktop_web_override>
                                 <ipad>
                                     <left>0</left>
                                     <right>0</right>
@@ -20443,13 +20443,13 @@ frmProdDetails.lblDesc.text = "";</value>
                                 </desktop_kiosk>
                                 <desktop_kiosk_override>false</desktop_kiosk_override>
                                 <desktop_web>
-                                    <left>4</left>
-                                    <right>4</right>
-                                    <top>9</top>
-                                    <bottom>9</bottom>
+                                    <left>1</left>
+                                    <right>1</right>
+                                    <top>1</top>
+                                    <bottom>1</bottom>
                                     <unit>%</unit>
                                 </desktop_web>
-                                <desktop_web_override>false</desktop_web_override>
+                                <desktop_web_override>true</desktop_web_override>
                                 <ipad>
                                     <left>0</left>
                                     <right>0</right>
@@ -20842,11 +20842,11 @@ frmProdDetails.lblDesc.text = "";</value>
                             <desktop_web>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>1</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -21337,7 +21337,7 @@ frmProdDetails.lblDesc.text = "";</value>
                             <width>false</width>
                             <height>false</height>
                         </overridePerferred>
-                        <contentAlign>4</contentAlign>
+                        <contentAlign>3</contentAlign>
                         <defaultImageText>stars0.png</defaultImageText>
                         <animationText></animationText>
                         <scale_mode>1</scale_mode>
@@ -21535,7 +21535,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -21796,9 +21796,9 @@ frmProdDetails.lblDesc.text = "";</value>
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
@@ -22181,7 +22181,7 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -22402,18 +22402,18 @@ frmProdDetails.lblDesc.text = "";</value>
                         </margins>
                         <paddings>
                             <android>
-                                <left>3</left>
-                                <right>3</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>15</top>
+                                <bottom>15</bottom>
                                 <unit>px</unit>
                             </android>
-                            <android_override>true</android_override>
+                            <android_override>false</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -22424,14 +22424,14 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>true</bb_override>
+                            <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>3</left>
-                                <right>3</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
-                                <unit>px</unit>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
+                                <unit>%</unit>
                             </defaults>
                             <desktop_kiosk>
                                 <left>0</left>
@@ -22442,9 +22442,9 @@ frmProdDetails.lblDesc.text = "";</value>
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </desktop_web>
@@ -22458,13 +22458,13 @@ frmProdDetails.lblDesc.text = "";</value>
                             </ipad>
                             <ipad_override>false</ipad_override>
                             <iphonerc>
-                                <left>3</left>
-                                <right>3</right>
-                                <top>3</top>
-                                <bottom>3</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </iphonerc>
-                            <iphonerc_override>true</iphonerc_override>
+                            <iphonerc_override>false</iphonerc_override>
                             <j2me>
                                 <left>0</left>
                                 <right>0</right>
@@ -22539,18 +22539,18 @@ frmProdDetails.lblDesc.text = "";</value>
                             <thinclient_override>false</thinclient_override>
                             <type>1</type>
                             <windows8>
-                                <left>3</left>
-                                <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <left>5</left>
+                                <right>5</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
                             <winmobile>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </winmobile>
                             <winmobile6x>
@@ -22561,15 +22561,15 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <unit>px</unit>
                             </winmobile6x>
                             <winmobile6x_override>true</winmobile6x_override>
-                            <winmobile_override>true</winmobile_override>
+                            <winmobile_override>false</winmobile_override>
                             <winphone8>
-                                <left>3</left>
-                                <right>3</right>
+                                <left>5</left>
+                                <right>5</right>
                                 <top>5</top>
                                 <bottom>5</bottom>
                                 <unit>px</unit>
                             </winphone8>
-                            <winphone8_override>true</winphone8_override>
+                            <winphone8_override>false</winphone8_override>
                             <xhtmlAdvBB>
                                 <left>1</left>
                                 <right>1</right>
@@ -22839,13 +22839,13 @@ frmProdDetails.lblDesc.text = "";</value>
                     </desktop_kiosk>
                     <desktop_kiosk_override>false</desktop_kiosk_override>
                     <desktop_web>
-                        <left>0</left>
+                        <left>3</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </desktop_web>
-                    <desktop_web_override>false</desktop_web_override>
+                    <desktop_web_override>true</desktop_web_override>
                     <ipad>
                         <left>0</left>
                         <right>0</right>
@@ -23494,13 +23494,13 @@ frmProdDetails.lblDesc.text = "";</value>
                 </desktop_kiosk>
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
-                    <left>0</left>
+                    <left>2</left>
                     <right>0</right>
-                    <top>0</top>
+                    <top>29</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>false</desktop_web_override>
+                <desktop_web_override>true</desktop_web_override>
                 <ipad>
                     <left>0</left>
                     <right>0</right>
@@ -26799,10 +26799,10 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>0</bottom>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </desktop_web>
-                            <desktop_web_override>false</desktop_web_override>
+                            <desktop_web_override>true</desktop_web_override>
                             <ipad>
                                 <left>0</left>
                                 <right>0</right>
