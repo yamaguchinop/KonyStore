@@ -21060,9 +21060,9 @@
                 </desktop_kiosk>
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
-                    <left>0</left>
+                    <left>7</left>
                     <right>0</right>
-                    <top>2</top>
+                    <top>5</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </desktop_web>
@@ -21706,7 +21706,7 @@
                 </desktop_kiosk>
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
-                    <left>0</left>
+                    <left>6</left>
                     <right>0</right>
                     <top>2</top>
                     <bottom>2</bottom>
