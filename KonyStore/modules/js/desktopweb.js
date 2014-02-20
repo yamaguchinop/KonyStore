@@ -277,6 +277,22 @@ function showReviewsWeb() {
 	}
 	
 }
+/**
+****************************************************************
+*	Name    : getProductSrchInitScrn
+*	Author  : Kony Solutions
+*	Purpose : This function is to show product list for the given product keyword.
+****************************************************************
+*/
+function getProductSrchInitScrn()
+{
+	srchKey = "TVs";
+	if(srchKey==""||srchKey==null||srchKey==undefined)
+		alert("Enter product name to search !!")
+	else
+		getSrchProductweb()
+	
+}
 
 /**
 ****************************************************************
@@ -288,6 +304,8 @@ function showReviewsWeb() {
 function getProductSrch()
 {
 	var curForm = kony.application.getCurrentForm();
+	if(curForm.id != "frmProductSrch")
+		frmProductSrch.txtbxSrch1.text="";
 	srchKey = curForm.txtbxSrch1.text;
 	curForm.txtbxSrch1.text="";
 	if(srchKey==""||srchKey==null||srchKey==undefined)

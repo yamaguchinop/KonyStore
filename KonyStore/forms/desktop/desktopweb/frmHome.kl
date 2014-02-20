@@ -495,6 +495,32 @@
                     <functionNameMap>
                         <entry>
                             <key>js</key>
+                            <value>getProductSrchInitScrn</value>
+                        </entry>
+                        <entry>
+                            <key>lua</key>
+                            <value>None</value>
+                        </entry>
+                    </functionNameMap>
+                    <paramDataMap>
+                        <entry>
+                            <key>js</key>
+                            <value/>
+                        </entry>
+                        <entry>
+                            <key>lua</key>
+                            <value/>
+                        </entry>
+                    </paramDataMap>
+                </actionList>
+                <actionList xsi:type="eventFunctionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>6</type>
+                    <functionName>None</functionName>
+                    <functionNameMap>
+                        <entry>
+                            <key>js</key>
                             <value>getCatList</value>
                         </entry>
                         <entry>

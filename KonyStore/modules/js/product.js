@@ -162,7 +162,8 @@ function showProductDetails()
 			frmProdDetails.imgArrow.setVisibility(false);
 	}
 	frmProdDetails.show();
-	//frmProdDetails.menucontainer.data = frmProduct.menucontainer.data ;	
+	if(channel=="desktopweb")
+		frmProdDetails.menucontainer.data = frmProduct.menucontainer.data ;	
 	
 }
 
