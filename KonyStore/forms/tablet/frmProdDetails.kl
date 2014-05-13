@@ -765,6 +765,12 @@
                 <seqname></seqname>
             </evtSequence>
         </spa_onOrientation_root>
+        <spa_onDeviceBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </spa_onDeviceBack>
         <pb_submitsecure>false</pb_submitsecure>
         <pb_titleBar>true</pb_titleBar>
         <pb_capture_gps>false</pb_capture_gps>
@@ -2770,6 +2776,14 @@
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_skin>Skin Defaults</winphone8_skin>
                     <bb10_skin>Skin Defaults</bb10_skin>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -2778,6 +2792,14 @@
                     </evtSequence>
                 </desktopweb_onRightClick>
                 <desktopweb_contextMenu>None</desktopweb_contextMenu>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <children xsi:type="kvBox">
                 <ID>vbox104346083237307</ID>
@@ -4060,6 +4082,14 @@
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblSalesPrice</ID>
@@ -4707,6 +4737,14 @@
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <children xsi:type="khBox">
                     <ID>hbxReviews</ID>
@@ -6004,6 +6042,14 @@
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                         <winphone8_contentalign>top-left</winphone8_contentalign>
                         <bb10_contentalignment>0</bb10_contentalignment>
+                        <containerWeight>0</containerWeight>
+                        <projectState>0</projectState>
+                        <a11yConfig>
+                            <a11yHidden>false</a11yHidden>
+                            <a11yHint></a11yHint>
+                            <a11yLabel></a11yLabel>
+                            <a11yValue></a11yValue>
+                        </a11yConfig>
                     </children>
                     <children xsi:type="kLabel">
                         <ID>lblReview</ID>
@@ -6650,6 +6696,14 @@
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                         <winphone8_contentalign>top-left</winphone8_contentalign>
                         <bb10_contentalignment>0</bb10_contentalignment>
+                        <containerWeight>0</containerWeight>
+                        <projectState>0</projectState>
+                        <a11yConfig>
+                            <a11yHidden>false</a11yHidden>
+                            <a11yHint></a11yHint>
+                            <a11yLabel></a11yLabel>
+                            <a11yValue></a11yValue>
+                        </a11yConfig>
                     </children>
                     <general_contextMenu>None</general_contextMenu>
                     <desktopweb_onRightClick>
@@ -6659,6 +6713,14 @@
                         </evtSequence>
                     </desktopweb_onRightClick>
                     <winphone8_position>0</winphone8_position>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblDesc</ID>
@@ -7305,6 +7367,14 @@
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -7313,6 +7383,14 @@
                     </evtSequence>
                 </desktopweb_onRightClick>
                 <desktopweb_contextMenu>None</desktopweb_contextMenu>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -7322,6 +7400,14 @@
                 </evtSequence>
             </desktopweb_onRightClick>
             <winphone8_position>0</winphone8_position>
+            <containerWeight>0</containerWeight>
+            <projectState>0</projectState>
+            <a11yConfig>
+                <a11yHidden>false</a11yHidden>
+                <a11yHint></a11yHint>
+                <a11yLabel></a11yLabel>
+                <a11yValue></a11yValue>
+            </a11yConfig>
         </children>
         <children xsi:type="kSegment2">
             <ID>segReviews</ID>
@@ -7954,6 +8040,8 @@
             <rowFocusSkin>Skin Defaults</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <secHeaderSkin>Skin Defaults</secHeaderSkin>
+            <pullToRefreshSkin>Skin Defaults</pullToRefreshSkin>
+            <pushToRefreshSkin>Skin Defaults</pushToRefreshSkin>
             <thickness>1</thickness>
             <sepColor>100,100,100</sepColor>
             <seperator_transpy>0</seperator_transpy>
@@ -8712,6 +8800,14 @@
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <children xsi:type="kLabel">
                 <ID>comment</ID>
@@ -9358,6 +9454,14 @@
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <children xsi:type="kLabel">
                 <ID>reviewer</ID>
@@ -10004,6 +10108,14 @@
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <children xsi:type="khBox">
                 <ID>hbxStar</ID>
@@ -11353,6 +11465,14 @@
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_skin>Skin Defaults</winphone8_skin>
                     <bb10_skin>Skin Defaults</bb10_skin>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -11362,7 +11482,21 @@
                     </evtSequence>
                 </desktopweb_onRightClick>
                 <winphone8_position>0</winphone8_position>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
+            <containerWeight>0</containerWeight>
+            <projectState>0</projectState>
+            <pullToRefreshi18nKey>None</pullToRefreshi18nKey>
+            <pushToRefreshi18nKey>None</pushToRefreshi18nKey>
+            <releaseToPullRefreshi18nKey>None</releaseToPullRefreshi18nKey>
+            <releaseToPushRefreshi18nKey>None</releaseToPushRefreshi18nKey>
         </children>
         <children xsi:type="kLine">
             <ID>line136760576417216</ID>
@@ -11981,6 +12115,8 @@
             <orient>0</orient>
             <tooltip></tooltip>
             <thickness>1</thickness>
+            <containerWeight>0</containerWeight>
+            <projectState>0</projectState>
         </children>
         <children xsi:type="khBox">
             <ID>hbxReviewers</ID>
@@ -12689,8 +12825,8 @@ frmProdDetails.segReviews.setVisibility(true);
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
-                <referenceWidth></referenceWidth>
-                <referenceHeight></referenceHeight>
+                <referenceWidth>20</referenceWidth>
+                <referenceHeight>33</referenceHeight>
                 <localeId>None</localeId>
                 <visible>true</visible>
                 <rendererData>
@@ -13357,6 +13493,14 @@ frmProdDetails.segReviews.setVisibility(true);
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_skin>Skin Defaults</winphone8_skin>
                 <bb10_skin>Skin Defaults</bb10_skin>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <children xsi:type="kvBox">
                 <ID>vbox10418868694312</ID>
@@ -14638,6 +14782,14 @@ frmProdDetails.segReviews.setVisibility(true);
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>top-left</winphone8_contentalign>
                     <bb10_contentalignment>0</bb10_contentalignment>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <children xsi:type="khBox">
                     <ID>hbxImage</ID>
@@ -15987,6 +16139,14 @@ frmProdDetails.segReviews.setVisibility(true);
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                         <winphone8_skin>Skin Defaults</winphone8_skin>
                         <bb10_skin>Skin Defaults</bb10_skin>
+                        <containerWeight>0</containerWeight>
+                        <projectState>0</projectState>
+                        <a11yConfig>
+                            <a11yHidden>false</a11yHidden>
+                            <a11yHint></a11yHint>
+                            <a11yLabel></a11yLabel>
+                            <a11yValue></a11yValue>
+                        </a11yConfig>
                     </children>
                     <general_contextMenu>None</general_contextMenu>
                     <desktopweb_onRightClick>
@@ -15996,6 +16156,14 @@ frmProdDetails.segReviews.setVisibility(true);
                         </evtSequence>
                     </desktopweb_onRightClick>
                     <winphone8_position>0</winphone8_position>
+                    <containerWeight>0</containerWeight>
+                    <projectState>0</projectState>
+                    <a11yConfig>
+                        <a11yHidden>false</a11yHidden>
+                        <a11yHint></a11yHint>
+                        <a11yLabel></a11yLabel>
+                        <a11yValue></a11yValue>
+                    </a11yConfig>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -16004,6 +16172,14 @@ frmProdDetails.segReviews.setVisibility(true);
                     </evtSequence>
                 </desktopweb_onRightClick>
                 <desktopweb_contextMenu>None</desktopweb_contextMenu>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -16013,6 +16189,14 @@ frmProdDetails.segReviews.setVisibility(true);
                 </evtSequence>
             </desktopweb_onRightClick>
             <winphone8_position>0</winphone8_position>
+            <containerWeight>0</containerWeight>
+            <projectState>0</projectState>
+            <a11yConfig>
+                <a11yHidden>false</a11yHidden>
+                <a11yHint></a11yHint>
+                <a11yLabel></a11yLabel>
+                <a11yValue></a11yValue>
+            </a11yConfig>
         </children>
         <children xsi:type="khBox">
             <ID>hbxProductName</ID>
@@ -17310,6 +17494,14 @@ frmProdDetails.segReviews.setVisibility(true);
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>top-left</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
+                <containerWeight>0</containerWeight>
+                <projectState>0</projectState>
+                <a11yConfig>
+                    <a11yHidden>false</a11yHidden>
+                    <a11yHint></a11yHint>
+                    <a11yLabel></a11yLabel>
+                    <a11yValue></a11yValue>
+                </a11yConfig>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -17319,6 +17511,14 @@ frmProdDetails.segReviews.setVisibility(true);
                 </evtSequence>
             </desktopweb_onRightClick>
             <winphone8_position>0</winphone8_position>
+            <containerWeight>0</containerWeight>
+            <projectState>0</projectState>
+            <a11yConfig>
+                <a11yHidden>false</a11yHidden>
+                <a11yHint></a11yHint>
+                <a11yLabel></a11yLabel>
+                <a11yValue></a11yValue>
+            </a11yConfig>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.bbTitleBar</overrideProperties>
@@ -17375,6 +17575,26 @@ frmProdDetails.segReviews.setVisibility(true);
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
         <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
         <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
+        <iphone_extendTop>false</iphone_extendTop>
+        <ipad_extendTop>false</ipad_extendTop>
+        <iphone_extendBottom>false</iphone_extendBottom>
+        <ipad_extendBottom>false</ipad_extendBottom>
+        <iphone_statusBarStyle>STATUS_BAR_STYLE_DEFAULT</iphone_statusBarStyle>
+        <ipad_statusBarStyle>STATUS_BAR_STYLE_DEFAULT</ipad_statusBarStyle>
+        <iphone_configureExtendTop>false</iphone_configureExtendTop>
+        <iphone_configureExtendBottom>false</iphone_configureExtendBottom>
+        <iphone_configureStatusBarStyle>false</iphone_configureStatusBarStyle>
+        <ipad_configureExtendTop>false</ipad_configureExtendTop>
+        <ipad_configureExtendBottom>false</ipad_configureExtendBottom>
+        <ipad_configureStatusBarStyle>false</ipad_configureStatusBarStyle>
+        <containerWeight>0</containerWeight>
+        <projectState>0</projectState>
+        <a11yConfig>
+            <a11yHidden>false</a11yHidden>
+            <a11yHint></a11yHint>
+            <a11yLabel></a11yLabel>
+            <a11yValue></a11yValue>
+        </a11yConfig>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -17996,6 +18216,8 @@ frmProdDetails.segReviews.setVisibility(true);
         </paddings>
         <tooltip></tooltip>
         <contentAlign>0</contentAlign>
+        <containerWeight>0</containerWeight>
+        <projectState>0</projectState>
     </children>
     <contentAlign>0</contentAlign>
     <gridviewConfig>
@@ -18003,4 +18225,6 @@ frmProdDetails.segReviews.setVisibility(true);
         <referenceWidth>0</referenceWidth>
         <sizeMode>constants.GRID_TYPE_FIXED</sizeMode>
     </gridviewConfig>
+    <containerWeight>0</containerWeight>
+    <projectState>0</projectState>
 </kPage>
